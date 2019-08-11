@@ -1,0 +1,19 @@
+{% load staticfiles %}
+{% load math_filter %}
+<tbody id="aumentos-chances" class="hide">
+    {% for chance in lista_chances %}
+        <tr>
+            <td>
+                <a class="clipboard btn-floating grey darken-4" data-clipboard-text="{{ chance.db_values }}">
+                    <i class="material-icons">code</i>
+                </a>
+            </td>
+            <td>{{ chance.attribute.id|multiply }}</td>
+            <td>{{ chance.id }}</td>
+            <td>{{ chance.max_lvl }}</td>
+            <td>{{ chance.name }}</td>
+            <td>{{ chance.type|upper }}</td>
+            <td>{{ chance.attribute.description }}</td>
+        </tr>
+    {% endfor %}
+</tbody>

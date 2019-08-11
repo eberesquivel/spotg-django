@@ -1,0 +1,68 @@
+{% extends 'components/base.html' %}
+{% load staticfiles %}
+{% load i18n %}
+{% load social_url %}
+{% block contenido %}
+    <!-- Breadcrumb -->
+    <nav class="grey darken-4">
+        <div class="nav-wrapper">
+            <div class="col s12">
+                <a href="{% url 'inicio' %}" class="breadcrumb">{% trans 'Página principal' %}</a>
+                <a href="{% url 'pago' %}" class="breadcrumb">{% trans 'Agenda' %}</a>
+            </div>
+        </div>
+    </nav>
+    <!-- FIN Breadcrumb -->
+    <div class="container">
+        <div class="row"></div>
+        <div class="row">
+            <!--div class="col s12 m4 hide-on-small-only center">
+                <div class="row">
+                    <div class="card hoverable">
+
+                        <div class="fb-page"
+                             data-href="{% facebook_url %}"
+                             data-small-header="false"
+                             data-adapt-container-width="true"
+                             data-hide-cover="false"
+                             data-show-facepile="true">
+                            <blockquote cite="{% facebook_url %}" class="fb-xfbml-parse-ignore">
+                                <a href="{% facebook_url %}">Reynaldev</a>
+                            </blockquote>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row center">
+
+                    <div class="fb-like"
+                         data-href="{% facebook_url %}"
+                         data-layout="button"
+                         data-action="like"
+                         data-size="large"
+                         data-show-faces="true"
+                         data-share="true"
+                         data-colorscheme="dark">
+                    </div>
+
+                </div>
+                <a href="https://www.facebook.com/media/set/?set=a.841634972673219.1073741829.716533591850025&type=1&l=7b467c1062"
+                   class="btn black center"
+                   target="_blank">portafolio</a>
+                <img class="responsive-img" src="{% static 'img/comentarios.jpg' %}">
+                <a href="https://www.youtube.com/user/reynolsreynaldo/videos" target="_blank" class="btn btn-block black pulse">aprende por ti mismo</a>
+            </div-->
+            <!-- <div class="fb-comments col s12 m8 card"
+                 data-order-by="reverse_time"
+                 data-href="http://reynaldev.pythonanywhere.com/comentarios"
+                 data-width="100%"
+                 data-numposts="10">
+            </div> -->
+
+            <script src="//simplybook.me/v2/widget/widget.js"></script>
+            <script>var widget = new SimplybookWidget({"widget_type":"iframe","url":"https:\/\/spotg.simplybook.me","theme":"emeri","theme_settings":{"timeline_show_end_time":"0","timeline_modern_display":"as_slots","sb_base_color":"#dbc0a2","booking_nav_bg_color":"#ffffff","body_bg_color":"#f1f1f1","dark_font_color":"#333333","light_font_color":"#ffffff","sb_company_label_color":"#ffffff","hide_img_mode":"0","sb_busy":"#ffe2d4","sb_available":"#f0f0f0"},"timeline":"flexible","datepicker":"top_calendar","is_rtl":false,"app_config":{"predefined":[]}});</script>
+    
+        </div>
+    </div>
+
+{% endblock contenido %}

@@ -1,0 +1,19 @@
+{% load staticfiles %}
+{% load math_filter %}
+<tbody id="aumentos-todos">
+    {% for skill in lista_todos %}
+        <tr>
+            <td>
+                <a class="clipboard btn-floating grey darken-4" data-clipboard-text="{{ skill.db_values }}">
+                    <i class="material-icons">code</i>
+                </a>
+            </td>
+            <td>{{ skill.attribute.id|multiply }}</td>
+            <td>{{ skill.id }}</td>
+            <td>{{ skill.max_lvl }}</td>
+            <td>{{ skill.name }}</td>
+            <td>{{ skill.type|upper }}</td>
+            <td>{{ skill.attribute.description }}</td>
+        </tr>
+    {% endfor %}
+</tbody>

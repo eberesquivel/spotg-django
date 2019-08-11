@@ -1,0 +1,32 @@
+<!-- Dropdown desktop structure -->
+{% load i18n %}
+<ul id="dd-informacion-desktop" class="dropdown-content">
+    <li>
+        <a href="{% url 'servicios' %}" class ="black-text">
+            {% trans 'Servicio' %}
+        </a>
+    </li>
+    <li>
+        <a href="{% url 'pago' %}" class ="black-text">
+            {% trans 'Pago' %}
+        </a>
+    </li>
+     <li>
+        <a href="https://bit.ly/2UI0xYD" class ="black-text">
+            {% trans 'Contacto' %}
+        </a>
+    </li>
+    <li>
+        <a href="{% url 'donacion' %}" class ="black-text">
+            {% trans 'Donación' %}
+        </a>
+    </li>
+    <li>
+        <a href="{% url 'locacion' %}" class ="black-text">
+            <!-- {% trans 'Mapa' %} -->
+            Ubicación
+        </a>
+    </li>
+    <!-- <li><a href="{% url 'parser' %}" class="black-text">{% trans 'Mapa' %}</a></li> -->
+</ul>
+

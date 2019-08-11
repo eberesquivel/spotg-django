@@ -1,0 +1,146 @@
+{% extends 'components/base.html' %}
+{% load static %}
+{% load i18n %}
+{% block contenido %}
+    <!-- Breadcrumb -->
+    <nav class="grey darken-4">
+        <div class="nav-wrapper">
+            <div class="col s12">
+                <a href="{% url 'inicio' %}" class="breadcrumb">
+                    {% trans 'Página principal' %}
+                </a>
+                <a href="{% url 'pago' %}" class="breadcrumb">
+                    {% trans 'Servicios' %}
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- FIN Breadcrumb -->
+    <div class="container">
+        <div class="section">
+            <h4 class="center">
+                {% trans 'Proceso' %}
+                <a href="https://youtu.be/TIhH45q6Pz8" class="btn black" target="_blank">
+                    {% trans 'ver' %}
+                </a>
+            </h4>
+            <!-- Slider para pantallas medianas para arriba -->
+            <div class="slider hide-on-small-only">
+                <ul class="slides">
+                    <li>
+                        <img src="{% static 'img/proceso_pago/solicite.jpg' %}">
+                        <div class="caption left-align">
+                            <h3>{% trans 'Solicite' %}</h3>
+                            <h5 class="light grey-text text-lighten-3">
+                                {% trans 'Asesoria' %}<br>
+                                {% trans 'Asistencia' %}<br>
+                                {% trans 'Pedido a medida' %}
+                            </h5>
+                            <a href="/#servicios" class="waves-effect waves-light btn grey darken-4">
+                                {% trans 'ver' %}
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="{% static 'img/proceso_pago/pague.jpg' %}">
+                        <div class="caption left-align">
+                            <h3>{% trans 'Pague' %}</h3>
+                            <h5 class="light grey-text text-lighten-3">
+                                {% trans 'Haga su pago con:' %}<br>
+                                Paypal<br>
+                                {% trans 'Tarjeta de crédito o débito' %}<br>
+                                Wester union
+                            </h5>
+                            <a href="{% url 'pago' %}" class="waves-effect waves-light btn grey darken-4">ver</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="{% static 'img/proceso_pago/reciba.jpg' %}">
+                        <div class="caption left-align">
+                            <h3>{% trans 'Reciba' %}</h3>
+                            <h5 class="light grey-text text-lighten-3">
+                                {% trans 'Entrega garantizada' %}
+                            </h5>
+                            <a href="{% url 'comentarios' %}" class="waves-effect waves-light btn grey darken-4">ver</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- FIN Slider para pantallas medianas para arriba -->
+        </div>
+        <div class="section">
+            <div class="card-panel hoverable grey darken-4">
+                <p class="flow-text white-text">
+                    <b>
+                        {% trans 'A tener en cuenta que primero se paga y después se empieza a trabajar, esto debido a que  muchos a media codificación ya no quieren el pedido. Una vez pedido no hay marcha atrás.' %}
+                    </b>
+                </p>
+            </div>
+            <h4 class="center">Precio</h4>
+            <!-- <div class="divider"></div> -->
+        </div>
+        <div class="card-panel hoverable">
+            “Había una vez un ingeniero que fue llamado a arreglar una computadora de la que dependía gran parte
+            del proceso productivo de una importante fábrica.
+            <br>
+            Sentado frente a la pantalla, oprimió unas cuantas teclas, asintió con la cabeza, murmuró algo para sí
+            mismo y apagó el aparato.
+            <br>
+            Procedió a sacar un pequeño destornillador de su bolsillo y dio vuelta y media a un minúsculo tornillo.
+            <br>
+            Entonces encendió de nuevo la computadora y comprobó que estaba trabajando perfectamente.
+            <br>
+            El presidente de la compañía se mostró encantado y se ofreció a pagar la cuenta en el acto.
+            <br>
+            -”¿Cuánto le debo? “-preguntó.
+            <br>
+            – “Son mil euros, si me hace el favor.”
+            <br>
+            – “<b>¿Mil euros? ¿Mil euros por unos momentos de trabajo? ¿Mil euros por apretar un simple tornillito?</b>
+            <br>
+            – ¡Ya sé que mi computadora es una parte fundamental de mi proceso productivo, pero mil euros es una
+            cantidad disparatada!
+            <br>
+            – La pagaré sólo si me manda una factura perfectamente detallada que la justifique.”
+            <br>
+            El ingeniero asintió con la cabeza y se fue.
+            <br>
+            A la mañana siguiente, el presidente recibió la factura, la leyó con cuidado, sacudió la cabeza procedió
+            a pagarla en el acto.La factura decía:
+            <br>
+            Detalle de servicios prestados
+            <br>
+            <ol>
+                <li>Apretar un tornillo ------------------- 1 euro</li>
+                <li>Saber qué tornillo apretar --- <b>999 euros</b></li>
+            </ol>
+        </div>
+
+        <h4 class="center">{% trans 'Calidad' %}</h4>
+        <div class="divider"></div>
+
+        <div class="row">
+            <div class="col s12 m3 hide-on-small-only center">
+                <img src="{% static 'img/female_elf_circle.png' %}">
+                <a href="{% url 'comentarios' %}" class="btn black">
+                    {% trans 'confiabilidad' %}
+                </a>
+            </div>
+            <div class="col s12 m9">
+                <div class="card-panel hoverable">
+                    <ol>
+                        <li>{% trans 'Si desea <b>alta calidad a buen precio</b>, debe dar más tiempo.' %}</li>
+                        <li>{% trans 'Si desea <b>alta calidad en poco tiempo</b>, debe pagar un precio mayor.' %}</li>
+                        <li>{% trans 'Si desea <b>buen precio en poco tiempo</b>, debe sacrificar la calidad.' %}</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+{% endblock contenido %}
+
+{% block scripts %}
+    <script type="text/javascript" src="{% static 'js/modal.js' %}"></script>
+{% endblock %}

@@ -1,0 +1,101 @@
+{% load staticfiles %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+{% get_available_languages as LANGUAGES %}
+{% get_language_info_list for LANGUAGES as languages %}
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#000000">
+    <meta name="google-site-verification" content=""/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta property="fb:app_id" content=""/>
+    <meta property="og:type" content="website"/>
+    {% block meta %}
+        <meta property="og:url" content="https://eberesquivel.pythonanywhere.com"/>
+        <meta property="og:image" content="https://eberesquivel.com/img/spotg.png"/>
+        <meta property="og:image:type" content="image/jpeg"/>
+        <meta property="og:image:width" content="1920"/>
+        <meta property="og:image:height" content="1080"/>
+        <meta property="og:title" content="SpotG"/>
+        <meta property="og:description" content="Consultoría en sistemas IoT"/>
+    {% endblock meta %}
+    <title>SpotG</title>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="{% static 'css/materialize.min.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!-- <link href="{% static 'css/style.min.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/> -->
+    <link href="{% static 'css/style.css' %}" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+    <link rel="icon" href="{% static 'favicon.ico' %}">
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> -->
+    <link href="{% static 'css/fontawe.css' %}" type="text/css" rel="stylesheet"/>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css' rel='stylesheet' />
+    
+    
+    {% block head_scripts %}
+    {% endblock head_scripts %}
+</head>
+<body>
+{% include 'sdk/sdk_facebook.html' %}
+{% include 'sdk/sdk_google_analitycs.html' %}
+{% include 'sdk/sdk_youtube_subscribe.html' %}
+{% include 'sdk/sdk_github.html' %}
+
+{% block navbar %}
+    {% include 'components/navbar/navbar_full.html' %}
+{% endblock navbar %}
+
+{% block contenido %}
+{% endblock contenido %}
+
+{% block footer %}
+    {% include 'components/boton_ir_arriba.html' %}
+    {% include 'components/boton_fb_msgr.html' %}
+    {% include 'components/footer.html' %}
+{% endblock footer %}
+
+{% include 'components/preloader.html' %}
+<!-- formlario para cambiar el lenguaje, se manipula por medio de JS (ver ->js/traduccion.js-->
+{% include 'components/lenguaje.html' %}
+<!-- Modal para mostrar mensaje al visitar la página-->
+{% include 'components/modal/modal_youtube.html' %}
+
+<!--  Scripts-->
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="{% static 'js/materialize.min.js' %}"></script>
+<!-- API para controlar el copiado al portapapeles -->
+<script src="{% static 'js/clipboard.min.js' %}"></script>
+<script src="{% static 'js/init.js' %}"></script>
+<!-- Script cargando PRELOADER-->
+<script type="text/javascript" src="{% static 'js/preloader.js' %}"></script>
+<!-- Script para el boton ir arriba y cosas de materialize -->
+<script type="text/javascript" src="{% static 'js/site.js' %}"></script>
+<!-- Se encarga de SETEAR los idiomas disponibles -->
+<script type="text/javascript" src="{% static 'js/traduccion.js' %}"></script>
+<!-- Permite controlar los eventos del teclado del usuario -->
+<script src="{% static 'js/hotkeys.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/deshabilitadores.js' %}"></script>
+<!-- API para controlar variables en el COOKIE del usuario -->
+<script type="text/javascript" src="{% static 'js/cookie.min.js' %}"></script>
+<script type="text/javascript" src="{% static 'js/cookie_handler.js' %}"></script>
+{% block scripts %}
+{% endblock scripts %}
+
+<script type="text/javascript" id="cookieinfo"
+	src="//cookieinfoscript.com/js/cookieinfo.min.js"
+	data-bg="#645862"
+	data-fg="#FFFFFF"
+	data-link="#F1D600"
+	data-cookie="CookieInfoScript"
+	data-text-align="left"
+       data-close-text="Got it!">
+</script>
+
+
+</body>
+</html>

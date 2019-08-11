@@ -1,0 +1,44 @@
+{% extends 'components/base.html' %}
+{% load staticfiles %}
+{% load i18n %}
+
+{% block contenido %}
+    <div class="container">
+        <div class="row">
+            {% if reporte_guardado %}
+                <div class="col s12">
+                    <div class="card-panel grey darken-4 white-text">
+                        <i class="Medium material-icons vertical-align-center">done_all</i>
+                        Tu reporte se ha enviado, gracias por informar!
+                    </div>
+                </div>
+            {% endif %}
+        </div>
+       <div class="row">
+           {% include 'snippets/form.html' %}
+        </div>
+    </div>
+{% endblock contenido %}
+
+{% block scripts %}
+    <script type="text/javascript">
+        var lista_aumentos = {{ lista_aumentos|safe }};
+        var diccionario_aumentos = {};
+        for(var i = 0; i < lista_aumentos.length; i++)
+        {
+            var aumento = lista_aumentos[i];
+            diccionario_aumentos[aumento] = null;
+        }
+
+        $(document).ready(function() {
+            $('input.autocomplete').autocomplete({
+            data: diccionario_aumentos,
+            limit: 20, // The max amount of results that can be shown at once. Default: Infinity.
+            onAutocomplete: function(val) {
+              // Callback function when value is autcompleted.
+            },
+            minLength: 3, // The minimum length of the input for the autocomplete to start. Default: 1.
+            });
+         });
+    </script>
+{% endblock scripts %}

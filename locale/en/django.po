@@ -1,0 +1,563 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-02-20 19:07-0600\n"
+"PO-Revision-Date: 2019-03-20 19:11-0600\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 2.2.1\n"
+
+#: .\reynaldev_services\settings.py:116
+msgid "Español"
+msgstr "Spanish"
+
+#: .\reynaldev_services\settings.py:117
+msgid "Inglés"
+msgstr "English"
+
+#: .\templates\augment_calc\inicio.html:7
+msgid "Total de aumentos"
+msgstr "Total augments"
+
+#: .\templates\augment_calc\inicio.html:14
+msgid "Mostrar"
+msgstr "Show"
+
+#: .\templates\augment_calc\inicio.html:16
+msgid "todos"
+msgstr "all"
+
+#: .\templates\augment_calc\inicio.html:27
+msgid "Todo"
+msgstr "all"
+
+#: .\templates\augment_calc\inicio.html:28
+msgid "Activo"
+msgstr "Active"
+
+#: .\templates\augment_calc\inicio.html:30
+msgid "Pasivo"
+msgstr "Passive"
+
+#: .\templates\augment_calc\inicio.html:42
+msgid "Problemas"
+msgstr "Problems"
+
+#: .\templates\augment_calc\inicio.html:43
+msgid "Envía un reporte para actualizar el contenido."
+msgstr "Send a report to update the content."
+
+#: .\templates\augment_calc\inicio.html:47
+msgid "reportar"
+msgstr "report"
+
+#: .\templates\augment_calc\inicio.html:66
+msgid "Ver lista de atributos"
+msgstr "See list of atributtes"
+
+#: .\templates\augment_calc\inicio.html:73
+msgid "Descargar"
+msgstr "Download"
+
+#: .\templates\augment_calc\inicio.html:86
+msgid "ATRIBUTO"
+msgstr "ATTRIBUTE"
+
+#: .\templates\augment_calc\inicio.html:89
+msgid "NOMBRE"
+msgstr "NAME"
+
+#: .\templates\augment_calc\inicio.html:90
+msgid "TIPO"
+msgstr "TYPE"
+
+#: .\templates\augment_calc\inicio.html:91
+msgid "DESCRIPCION"
+msgstr "DESCRIPTION"
+
+#: .\templates\components\footer.html:9
+msgid "Apasionado por el desarrollo de aplicaciones IoT"
+msgstr "Passionate about the development of IoT applications"
+
+#: .\templates\components\footer.html:12
+msgid ""
+"Consultoría en proyectos de IoT,Desarrollo de sistemas bajo normas de calidad,Implementación de proyectos de infraestructura basada en IoT,"
+"Despliegue de sistemas en la nube"
+msgstr ""
+"Consultancy in IoT projects, Development of systems under quality standards, Implementation of infrastructure projects based on IoT, "
+"Deployment of systems in the cloud"
+
+#: .\templates\components\footer.html:16 .\templates\components\navbar\desktop\dropdown\dropdown_informacion.html:16
+msgid "Contacto"
+msgstr "Contact"
+
+#: .\templates\components\footer.html:23 .\templates\servicios\servicios.html:163
+msgid "Foro"
+msgstr "Forum"
+
+#: .\templates\components\footer.html:47
+msgid "Redes sociales"
+msgstr "Social networks"
+
+#: .\templates\components\footer.html:81
+msgid "Hecho con"
+msgstr "Made with"
+
+#: .\templates\components\modal\modal_youtube.html:12
+msgid ""
+"\n"
+"                        En el canal de <a href=\"https://www.youtube.com/user/eberesquivel"><strong>YouTube</strong></a>\n"
+"                        podrás encontrar <b>tutoriales</b> en español, fáciles, sencillos y útiles.\n"
+"                        También podrás encontrar material para tu sitio web.\n"
+"                        <br>\n"
+"                        <br>\n"
+"                        <b>Si necesitas soporte gratuito</b> <a href=\"http://l2devsadmins.net/\">visita el FORO.</a>\n"
+"                    "
+msgstr ""
+"\n"
+"                        In the YouTube channel you can find <b>tutorials</b> in Spanish, easy, simple and useful.\n"
+"                        You can also find material for your website.\n"
+"                        <br>\n"
+"                        <br>\n"
+"                        <b>If you need free support </b>visit the FORUM.\n"
+"                    "
+
+#: .\templates\components\navbar\desktop\dropdown\dropdown_herramienta.html:5
+msgid "Buscador C4"
+msgstr "C4 finder"
+
+#: .\templates\components\navbar\desktop\dropdown\dropdown_herramienta.html:6
+msgid "Aumentos Calc"
+msgstr "Augments Calc"
+
+#: .\templates\components\navbar\desktop\dropdown\dropdown_informacion.html:6
+#: .\templates\components\navbar\mobile\dropdown\dropdown_informacion.html:7
+msgid "Servicio"
+msgstr "Service"
+
+
+
+#: .\templates\components\navbar\desktop\dropdown\dropdown_informacion.html:21
+#: .\templates\components\navbar\mobile\dropdown\dropdown_informacion.html:19 .\templates\informacion\donacion.html:10
+msgid "Donación"
+msgstr "Donation"
+
+#: .\templates\components\navbar\desktop\navbar_desktop.html:15 .\templates\components\navbar\mobile\navbar_mobile.html:23
+msgid "Información"
+msgstr "Information"
+
+#: .\templates\components\navbar\desktop\navbar_desktop.html:21
+msgid "Herramientas"
+msgstr "Tools"
+
+#: .\templates\components\navbar\desktop\navbar_desktop.html:27 .\templates\components\navbar\mobile\navbar_mobile.html:34
+#: .\templates\informacion\comentarios.html:11
+msgid "Comentarios"
+msgstr "Reviews"
+
+#: .\templates\components\navbar\desktop\navbar_desktop.html:38 .\templates\components\navbar\mobile\navbar_mobile.html:44
+msgid "Sitios"
+msgstr "Forums"
+
+#: .\templates\components\navbar\mobile\navbar_mobile.html:39
+msgid "Canal YouTube"
+msgstr "Youtube channel"
+
+#: .\templates\components\navbar\mobile\navbar_mobile.html:51
+msgid "Idioma"
+msgstr "Language"
+
+#: .\templates\informacion\comentarios.html:10 .\templates\informacion\donacion.html:9 .\templates\informacion\servicios.html:10
+msgid "Página principal"
+msgstr "Homepage"
+
+#: .\templates\informacion\donacion.html:17
+msgid "¿Porqué hacer una donación?"
+msgstr "Why make a donation?"
+
+#: .\templates\informacion\donacion.html:21
+msgid ""
+"Al hacer su donación estará contribuyendo con el Autor (ReynalDev), de tal manera que se compartirá material de calidad para el desarrollo "
+"de su servidor."
+msgstr ""
+"When making your donation you are contributing with the Author (Reynald0), so that you will share quality material for the development of "
+"your server"
+
+#: .\templates\informacion\donacion.html:24
+msgid "\"Me preocupo por compartir material útil y fácil de implementar\""
+msgstr "I worry about sharing useful and easy-to-implement material."
+
+#: .\templates\informacion\donacion.html:35 .\templates\informacion\inicio.html:102
+msgid "Cantidad"
+msgstr "Amount"
+
+#: .\templates\informacion\donacion.html:39 .\templates\informacion\inicio.html:106
+msgid "Dólares"
+msgstr "Dollars"
+
+#: .\templates\informacion\donacion.html:40 .\templates\informacion\inicio.html:107
+msgid "Euros"
+msgstr "Euros"
+
+#: .\templates\informacion\donacion.html:41 .\templates\informacion\inicio.html:108
+msgid "Pesos mexicanos"
+msgstr "Mexican pesos"
+
+#: .\templates\informacion\donacion.html:43 .\templates\informacion\inicio.html:110
+msgid "Moneda"
+msgstr "Currency"
+
+#: .\templates\informacion\donacion.html:48 .\templates\informacion\inicio.html:115
+msgid "donar"
+msgstr "donate"
+
+#: .\templates\informacion\inicio.html:17
+msgid "Contratar"
+msgstr "Contract"
+
+#: .\templates\informacion\inicio.html:33
+msgid "Entrega garantizada o se reembolsa el pago."
+msgstr "Guaranteed delivery or payment is refunded."
+
+#: .\templates\informacion\inicio.html:80
+msgid "Ver más..."
+msgstr "More..."
+
+#: .\templates\informacion\inicio.html:96
+msgid "Donaciones"
+msgstr "Donations"
+
+#: .\templates\informacion\pago.html:39
+msgid "Métodos de pago"
+msgstr "Payment methods"
+
+#: .\templates\informacion\pago.html:94
+msgid "(SOLO MÉXICO)"
+msgstr "(ONLY MEXICO)"
+
+#: .\templates\informacion\servicios.html:13
+msgid "Servicios"
+msgstr "Services"
+
+#: .\templates\informacion\servicios.html:22
+msgid "Proceso"
+msgstr "Process"
+
+#: .\templates\informacion\servicios.html:24 .\templates\informacion\servicios.html:40
+msgid "ver"
+msgstr "see"
+
+#: .\templates\informacion\servicios.html:33
+msgid "Solicite"
+msgstr "Ask for"
+
+#: .\templates\informacion\servicios.html:35
+msgid "Asesoria"
+msgstr "Advice"
+
+#: .\templates\informacion\servicios.html:36 .\templates\servicios\servicios.html:105
+msgid "Asistencia"
+msgstr "Assistance"
+
+#: .\templates\informacion\servicios.html:37
+msgid "Pedido a medida"
+msgstr "Custom order"
+
+#: .\templates\informacion\servicios.html:47
+msgid "Pague"
+msgstr "Pay"
+
+#: .\templates\informacion\servicios.html:49
+msgid "Haga su pago con:"
+msgstr "Make your payment with:"
+
+#: .\templates\informacion\servicios.html:51
+msgid "Tarjeta de crédito o débito"
+msgstr "Credit or debit card"
+
+#: .\templates\informacion\servicios.html:60
+msgid "Reciba"
+msgstr "Receive"
+
+#: .\templates\informacion\servicios.html:62
+msgid "Entrega garantizada"
+msgstr "Delivery guaranteed"
+
+#: .\templates\informacion\servicios.html:75
+msgid "A tener en cuenta que primero se paga y después se empieza a trabajar, esto debido a que muchos a media codificación ya no quieren el pedido. Una vez pedido no hay marcha atrás."
+msgstr "First you pay, this is due to the fact that many people who are half coding do not want the order anymore. Once ordered there is no going back."
+
+
+#: .\templates\informacion\servicios.html:122
+msgid "Calidad"
+msgstr "Quality"
+
+#: .\templates\informacion\servicios.html:129
+msgid "confiabilidad"
+msgstr "reliability"
+
+#: .\templates\informacion\servicios.html:135
+msgid "Si desea <b>alta calidad a buen precio</b>, debe dar más tiempo."
+msgstr "If you want <b>high quality at a good price </b>, you should give more time."
+
+#: .\templates\informacion\servicios.html:136
+msgid "Si desea <b>alta calidad en poco tiempo</b>, debe pagar un precio mayor."
+msgstr "If you want <b>high quality in a short time </b>, you must pay a higher price."
+
+#: .\templates\informacion\servicios.html:137
+msgid "Si desea <b>buen precio en poco tiempo</b>, debe sacrificar la calidad."
+msgstr "If you want <b>good price in a short time </b>, you must sacrifice quality."
+
+#: .\templates\promocion\crear_server.html:7
+msgid "Internet de las cosas & Tú"
+msgstr "Internet of things & You"
+
+#: .\templates\promocion\crear_server.html:15 .\templates\promocion\crear_server.html:26 .\templates\promocion\crear_server.html:36
+msgid "Crear servidor"
+msgstr "Create server"
+
+#: .\templates\promocion\crear_server.html:48
+msgid "aprende a desarrollar"
+msgstr "learn to develop"
+
+#: .\templates\servicios\servicios.html:8
+msgid ""
+"\n"
+"                        <span>Servicios</span>\n"
+"                        <span class=\"cd-words-wrapper\">\n"
+"                            <b class=\"is-visible\">confiables</b>\n"
+"                            <b>seguros</b>\n"
+"                            <b>de calidad</b>\n"
+"                        </span>\n"
+"                    "
+msgstr ""
+"\n"
+"                        <span class=\"cd-words-wrapper\">\n"
+"                            <b class=\"is-visible\">Reliables</b>\n"
+"                            <b>Safe</b>\n"
+"                            <b>Quality</b>\n"
+"                        </span>\n"
+"                        <span>Building systems on </span>\n"
+"                    "
+
+#: .\templates\servicios\servicios.html:23
+msgid "forma de trabajo"
+msgstr "Way to work"
+
+#: .\templates\servicios\servicios.html:28
+msgid "portafolio"
+msgstr "portfolio"
+
+#: .\templates\servicios\servicios.html:36
+msgid "Introducción"
+msgstr "Introduction"
+
+#: .\templates\servicios\servicios.html:39
+msgid "Explicación para principantes (Asesorias) del datapack."
+msgstr "Explanation for beginners (Assessments) of the datapack."
+
+#: .\templates\servicios\servicios.html:43
+msgid "lista de videos"
+msgstr "list of videos"
+
+#: .\templates\servicios\servicios.html:53
+msgid "Quest personalizada"
+msgstr "Custom Quest"
+
+#: .\templates\servicios\servicios.html:58
+msgid "Creación de Quest personalizadas (Cliente - Servidor).Se usarán los NPC que tenga el cliente."
+msgstr "Creation of personalized Quest (Client - Server). The NPC that the client has will be used."
+
+#: .\templates\servicios\servicios.html:61
+msgid "Modificación de Quest existente."
+msgstr "Modification of existing Quest."
+
+#: .\templates\servicios\servicios.html:67 .\templates\servicios\servicios.html:96 .\templates\servicios\servicios.html:172
+#: .\templates\servicios\servicios.html:208
+msgid "ejemplo"
+msgstr "example"
+
+#: .\templates\servicios\servicios.html:76
+msgid "Adaptación"
+msgstr "Adaptation"
+
+#: .\templates\servicios\servicios.html:79
+msgid "Reformateo de código desde un datapack diferente o crónica diferente con estructura similar al datapack usado."
+msgstr "Reformatting code from a different or different chronicle datapack with structure similar to the datapack used."
+
+#: .\templates\servicios\servicios.html:89
+msgid "Desarrollo de NPC a medida"
+msgstr "Development of customized NPC"
+
+#: .\templates\servicios\servicios.html:90
+msgid "Modificación de NPC (código fuente)"
+msgstr "Modification of NPC (source code)"
+
+#: .\templates\servicios\servicios.html:91
+msgid "Mejora de NPC"
+msgstr "Improvement of NPC"
+
+#: .\templates\servicios\servicios.html:109
+msgid "Actualización del código fuente del servidor"
+msgstr "Update the server source code"
+
+#: .\templates\servicios\servicios.html:110
+msgid "Mantenimiento del servidor"
+msgstr "Server maintenance"
+
+#: .\templates\servicios\servicios.html:111
+msgid "Respaldo de la base de datos"
+msgstr "Backup of the database"
+
+#: .\templates\servicios\servicios.html:112
+msgid "Migración del servidor a nuevo Host"
+msgstr "Migrating the server to a new Host"
+
+#: .\templates\servicios\servicios.html:119
+msgid "Repositorio"
+msgstr "Repository"
+
+#: .\templates\servicios\servicios.html:123
+msgid "Creación de repositorio SVN privado o público"
+msgstr "Creating private or public SVN repository"
+
+#: .\templates\servicios\servicios.html:124
+msgid "Creación de repositorio GIT privado o público"
+msgstr "Creation of private or public GIT repository"
+
+#: .\templates\servicios\servicios.html:125
+msgid "Explicación de porqué usar repositorio SVN o GIT"
+msgstr "Explanation of why to use SVN or GIT repository"
+
+#: .\templates\servicios\servicios.html:132
+msgid "Diseño web"
+msgstr "Web design"
+
+#: .\templates\servicios\servicios.html:135
+msgid "Diseño de tu página web FRONT-END (HTML y CSS3), es decir, solo lo que se puede ver, un ejemplo sería este sitio web."
+msgstr "Design of your FRONT-END website (HTML and CSS3), that is, only what you can see, an example would be this website."
+
+#: .\templates\servicios\servicios.html:141
+msgid "Sitio web"
+msgstr "Website"
+
+#: .\templates\servicios\servicios.html:146
+msgid "Sitio web adaptable a diversas pantallas. En los videos podrás encontrar todo lo que contiene."
+msgstr "Website adaptable to different screens. In the videos you can find everything it contains."
+
+#: .\templates\servicios\servicios.html:156
+msgid "Configurar sitio web para conectarse a servidor Lineage 2"
+msgstr "Configure website to connect to Lineage 2 server"
+
+#: .\templates\servicios\servicios.html:166
+msgid "Foro personalizado para tu servidor."
+msgstr "Custom forum for your server."
+
+#: .\templates\servicios\servicios.html:181
+msgid "Despliegue"
+msgstr "Deployment"
+
+#: .\templates\servicios\servicios.html:185
+msgid "Configurar servidor VPS, dedicado o cloud Windows Server para servidor Lineage 2"
+msgstr "Configure VPS server, dedicated or cloud Windows Server for Lineage 2 server"
+
+#: .\templates\servicios\servicios.html:186
+msgid "Configurar servidor VPS, dedicado o cloud Linux para servidor Lineage 2"
+msgstr "Configure VPS server, dedicated or cloud Linux for Lineage 2 server"
+
+#: .\templates\servicios\servicios.html:187
+msgid "Desplegar servidor Lineage 2 en VPS, dedicado o cloud Windows Server"
+msgstr "Deploy Lineage 2 server in VPS, dedicated or Windows Server cloud"
+
+#: .\templates\servicios\servicios.html:188
+msgid "Desplegar servidor Lineage 2 en VPS, dedicado o cloud Linux"
+msgstr "Desplegar servidor Lineage 2 en VPS, dedicado o cloud Linux"
+
+#: .\templates\servicios\servicios.html:189
+msgid "Configurar servidor Lineage 2 online en VPS, dedicado o cloud Windows Server"
+msgstr "Configure Lineage 2 server online in VPS, dedicated or Windows Server cloud"
+
+#: .\templates\servicios\servicios.html:190
+msgid "Configurar servidor Lineage 2 online en VPS, dedicado o cloud Linux"
+msgstr "Configure Lineage 2 server online in VPS, dedicated or cloud Linux"
+
+#: .\templates\servicios\servicios.html:191
+msgid "Asesoría para montar servidor L2 usando Linux local o producción"
+msgstr "Advice for mounting L2 server using local Linux or production"
+
+#: .\templates\servicios\servicios.html:198
+msgid "Desarrollo"
+msgstr "Development"
+
+#: .\templates\servicios\servicios.html:202
+msgid "Desarrollo de código personalizado"
+msgstr "Development of custom code"
+
+#: .\templates\servicios\servicios.html:203
+msgid "Desarrollo de sistemas personalizados"
+msgstr "Development of customized systems"
+
+#: .\templates\servicios\servicios.html:217
+msgid "Texturas"
+msgstr "Textures"
+
+#: .\templates\servicios\servicios.html:220
+msgid "Creación de icono, imagen o botón para Interlude. Se requiere la imagen en formato PNG,JPG,BMP...etc."
+msgstr "Creation of an icon, image or button for Interlude. The image is required in PNG, JPG, BMP ... etc format"
+
+#: .\templates\servicios\servicios.html:235
+msgid "Recomendación y sugerencia sobre los mejores hosting para su servidor Lineage II o sitio web a nivel mundial:"
+msgstr "Recommendation and suggestion about the best hosting for your Lineage II server or website worldwide:"
+
+#: .\templates\servicios\servicios.html:237
+msgid "Dedicado"
+msgstr "Dedicated"
+
+#: .\templates\servicios\servicios.html:239
+msgid "Buena banda ancha"
+msgstr "Good broadband"
+
+#: .\templates\servicios\servicios.html:240
+msgid "Mitigación DDoS"
+msgstr "DDoS mitigation"
+
+#: .\templates\servicios\servicios.html:244
+msgid "solicitar asesoría"
+msgstr "request advice"
+
+#: .\templates\servicios\servicios.html:251
+msgid "solicitar servicio"
+msgstr "request service"
+
+msgid "Encuentra tu auto!"
+msgstr "Find your car!"
+
+msgid "Análisis"
+msgstr "Analitycs"
+
+msgid "Controla tu casa!"
+msgstr "Home Control!"
+
+msgid "Visión"
+msgstr "Vision"
+
+msgid "PORTAFOLIO"
+msgstr "PORTFOLIO"
+
+msgid "Aplicación Markdown"
+msgstr "Markdown App"
+
+msgid "Aquí puedes encontrar información sobre algunos proyectos en los que he participado y detalles sobre mi experiencia laboral"
+msgstr "Here you can find information on some projects in which I have participated and details about my work experience"
+
+msgid "JUEGA AGAR.IO"
+msgstr "PLAY AGAR.IO"
+
+msgid "Sitios"
+msgstr "Sites"

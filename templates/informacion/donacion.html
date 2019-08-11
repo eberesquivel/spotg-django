@@ -1,0 +1,59 @@
+{% extends 'components/base.html' %}
+{% load staticfiles %}
+{% load i18n %}
+{% block contenido %}
+    <!-- Breadcrumb -->
+    <nav class="grey darken-4">
+        <div class="nav-wrapper">
+            <div class="col s12">
+                <a href="{% url 'inicio' %}" class="breadcrumb">{% trans 'Página principal' %}</a>
+                <a href="{% url 'pago' %}" class="breadcrumb">{% trans 'Donación' %}</a>
+            </div>
+        </div>
+    </nav>
+    <!-- FIN Breadcrumb -->
+    <div class="container">
+        <h4 class="center animated bounceIn">
+            {% trans '¿Porqué hacer una donación?' %}
+        </h4>
+            <div class="divider"></div>
+            <p class="flow-text">
+                {% trans 'Al hacer su donación estará contribuyendo con el Autor (Eber Raziel)' %}
+                <br>
+                <br>
+                <i class="right">{% trans '"Me preocupo por compartir material útil y fácil de implementar"' %}</i>
+            </p>
+        <div class="row">
+            <div class="col s12 m6 hide-on-small-only">
+                <img class="responsive-img" src="{% static 'img/gift.png' %}">
+            </div>
+            <form class="col s12 m6 ">
+              <div class="row">
+                  <img class="responsive-img" src="{% static 'img/paypal_horizontal.png' %}">
+                <div class="input-field col s6">
+                  <input id="cantidad" type="number" class="validate" required value="5" >
+                  <label for="cantidad">{% trans 'Cantidad' %}</label>
+                </div>
+                <div class="input-field col s6">
+                    <select id="moneda">
+                      <option value="USD">{% trans 'Dólares' %}</option>
+                      <option value="EUR">{% trans 'Euros' %}</option>
+                      <option value="MXN">{% trans 'Pesos mexicanos' %}</option>
+                    </select>
+                    <label>{% trans 'Moneda' %}</label>
+                </div>
+                <div class="input-field col s12">
+                   <a id="donar" class="btn btn-large waves-effect waves-teal grey darken-4">
+                       <i class="material-icons right">thumb_up</i>
+                       {% trans 'donar' %}
+                   </a>
+                </div>
+              </div>
+            </form>
+        </div>
+    </div>
+{% endblock contenido %}
+
+{% block scripts %}
+    <script type="text/javascript" src="{% static 'js/donar.js' %}"></script>
+{% endblock scripts %}

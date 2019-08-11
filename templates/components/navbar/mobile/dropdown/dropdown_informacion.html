@@ -1,0 +1,29 @@
+<!-- Dropdown mobile structure -->
+{% load i18n %}
+<ul id="dd-informacion-mobile" class="dropdown-content">
+    <li>
+        <a href="{% url 'servicios' %}">
+            <i class="material-icons">shopping_cart</i>
+            {% trans 'Servicio' %}
+        </a>
+    </li>
+    <li>
+        <a href="{% url 'pago' %}">
+            <i class="material-icons">payment</i>
+            {% trans 'Pago' %}
+        </a>
+    </li>
+    <li>
+        <a href="{% url 'donacion' %}">
+            <i class="material-icons">loyalty</i>
+            {% trans 'Donación' %}
+        </a>
+    </li>
+    <li>
+        <a href="{% url 'locacion' %}">
+            <i class="material-icons">insert_emoticon</i>
+            {% trans 'Locación' %}
+        </a>
+    </li>
+
+</ul>

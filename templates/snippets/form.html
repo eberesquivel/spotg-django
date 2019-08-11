@@ -1,0 +1,15 @@
+<form method="POST" enctype="multipart/form-data" role="form" data-toggle="validator">
+    {% csrf_token %}
+    {% for field in form %}
+        <div class="row">
+            <div class="input-field col s12">
+                {{ field }}
+                <label for="{{ field.label }}">{{ field.label }}</label>
+            </div>
+        </div>
+    {% endfor %}
+    <button type="submit" class="btn grey darken-4">
+        Confirmar <i class="material-icons vertical-align-center">done</i>
+    </button>
+</form>
+<br>

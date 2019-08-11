@@ -1,0 +1,13 @@
+.main-loader,.scroll tr{display:flex}nav .brand-logo,nav ul a{color:#444}p{line-height:2rem}.button-collapse{color:#26a69a}.parallax-container{min-height:380px;line-height:0;height:auto;color:rgba(255,255,255,.9)}.parallax-container .section{width:100%}@media only screen and (max-width :992px){.parallax-container .section{position:absolute;top:40%}#index-banner .section{top:10%}}@media only screen and (max-width :600px){#index-banner .section{top:0}}.icon-block{padding:0 15px}.icon-block .material-icons{font-size:inherit}footer.page-footer{margin:0}.main-loader{top:0;left:0;width:100%;height:100%;position:fixed;align-items:center;justify-content:center;background-color:#fff;background-color:rgba(255,255,255,.5)}.slider .indicators .indicator-item.active{background-color:#212121}.vertical-align-center{vertical-align:middle}.fixed-bottom-left{position:fixed;bottom:1%;left:1%}.fixed-right-middle{position:fixed;bottom:50%;right:1%}.fixed-right-15p{position:fixed;bottom:15%;right:1%}.tabs .tab a{color:#929292}.tabs .tab a.active,.tabs .tab a:hover{background-color:transparent;color:#000}.tabs .tab.disabled a,.tabs .tab.disabled a:hover{color:rgba(102,147,153,.7)}.tabs .indicator{background-color:#000}.scroll{border:1px;border-collapse:collapse}.scroll td{flex:1}.scroll thead tr:after{overflow-y:scroll;visibility:hidden;height:0}.scroll thead th{flex:1;display:block}.scroll tbody{display:block;overflow-y:auto;height:calc(80vh - 100px)}
+
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+
+    .home-section-1, .home-section-3, .home-section-5 {
+        background-attachment: scroll;
+    }
+
+}

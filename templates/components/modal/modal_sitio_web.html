@@ -1,0 +1,35 @@
+{% load staticfiles %}
+{% load i18n %}
+<!-- Modal Structure -->
+<div id="modal-sitio-web" class="modal modal-fixed-footer">
+    <div class="modal-content">
+       <h4 class="center-block">¿Qué contiene?</h4>
+        <div class="row">
+            <div class="col s12 m4">
+                <img src="{% static 'img/modal_elf.png' %}" class="responsive-img center-block">
+            </div>
+            <div class="col s12 m8">
+                <div class="flow-text">
+                    <ul class="collection">
+                        <li class="collection-item"><strong>Información del servidor</strong></li>
+                        <li class="collection-item"><strong>Descargas del servidor</strong></li>
+                        <li class="collection-item"><strong>Estado del servidor</strong> (ON / OFF)</li>
+                        <li class="collection-item"><strong>Cuentas, jugadores, cantidad online</strong></li>
+                        <li class="collection-item"><strong>Galeria</strong></li>
+                        <li class="collection-item"><strong>Votos</strong> (Hopzone, L2jBrasil, L2Network, Topzone)</li>
+                        <li class="collection-item"><strong>Registro de cuentas</strong> (Seguro)</li>
+                        <li class="collection-item"><strong>Inicio de sesión</strong> (Seguro)</li>
+                        <li class="collection-item"><strong>Donaciones automáticas</strong> (Paypal)</li>
+                        <li class="collection-item"><strong>User Panel</strong></li>
+                        <li class="collection-item"><strong>Admin Panel</strong></li>
+                        <li class="collection-item"><strong>Ranking</strong> (Top PvP, PK)</li>
+                        <li class="collection-item"><strong>Estado</strong> (Raid Boss, Grand Boss)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <a class="modal-action modal-close waves-effect waves-green btn black">ok</a>
+    </div>
+</div>

@@ -1,0 +1,35 @@
+{% load staticfiles %}
+{% load i18n %}
+<!-- Modal Structure -->
+<div id="modal-youtube" class="modal modal-fixed-footer amber lighten-4">
+    <div class="modal-content  ">
+        <div class="row">
+            <div class="col s3 m3.5">
+                <img src="{% static 'img/modal.jpg' %}" class="responsive-img hide-on-small-only centered">
+                <div>
+                    
+                </div>
+           
+           
+            </div>
+            <div class="flow-text">
+                {% blocktrans %}
+                <br>
+                <br>
+                <br>
+                    Visita mi sitio en  <a href="https://eberesquivel.com"><strong>Eber Raziel</strong></a>
+                    podrás encontrar <b>información </b> sobre proyectos de tecnología & Internet of Things
+                    <br>
+                    <br>
+                    <b>Si necesitas apoyo con algún proyecto</b> <a href="http://eberesquivel.com/">haz click aqui</a>
+                {% endblocktrans %}
+            </div>
+            
+        </div>
+        
+    </div>
+    <div class="modal-footer amber accent-3">
+        <a onclick="setCookie('modal_youtube', false);"
+           class="modal-action modal-close btn black">aceptar</a>
+    </div>
+</div>

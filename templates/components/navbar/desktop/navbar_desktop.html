@@ -1,0 +1,60 @@
+{% load staticfiles %}
+{% load i18n %}
+{% load social_url %}
+<!-- Importante agregar el UL de DropDown para que la version de escritorio pueda abrirse -->
+{% include 'components/navbar/desktop/dropdown/dropdown_informacion.html' %}
+{% include 'components/navbar/desktop/dropdown/dropdown_lenguaje.html' %}
+{% include 'components/navbar/desktop/dropdown/dropdown_herramienta.html' %}
+{% include 'components/navbar/desktop/dropdown/dropdown_foro.html' %}
+
+<!-- NAVBAR escritorio -->
+<ul class="right hide-on-med-and-down">
+    <!-- Dropdown Trigger -->
+    <li>
+        <a data-activates="dd-informacion-desktop" class="dropdown-button white-text">
+            {% trans 'Información' %}
+            <i class="material-icons right">arrow_drop_down</i>
+        </a>
+    </li>
+    
+    <li>
+        <a href="{% url 'comentarios' %}" class="white-text">
+            {% trans 'Agenda' %}
+        </a>
+    </li>
+    <li>
+        <a href="https://www.youtube.com"
+           target="_blank">
+            <img src="{% static 'img/social/youtube.png' %}" class="vertical-align-center">
+        </a>
+    </li>
+   
+    <li>
+        <a data-activates="dd-foro-desktop" class="dropdown-button white-text">
+            {% trans 'Sitios' %}
+            <i class="material-icons right">arrow_drop_down</i>
+        </a>
+    </li>
+    <!-- <li>
+        <a href="/rgbtobgr/parser/" class="white-text"">
+            {% trans 'Mapa' %}
+            <i class="material-icons right">map</i>
+        </a>
+    </li> -->
+    <li>
+        <a href="{% url 'faqs' %}" class="white-text">
+            FAQs
+            <i class="material-icons right"></i>
+        </a>
+    </li>
+    <li>
+        <a data-activates="dd-lenguaje-desktop" class="dropdown-button white-text">
+            {% if LANGUAGE_CODE == 'es' %}
+                <img src="{% static 'img/idiomas/es.png' %}" class="vertical-align-center">ES
+            {% endif %}
+            {% if LANGUAGE_CODE == 'en' %}
+                <img src="{% static 'img/idiomas/en.png' %}" class="vertical-align-center">EN
+            {% endif %}
+        </a>
+    </li>
+</ul>
