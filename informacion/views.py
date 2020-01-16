@@ -29,8 +29,8 @@ class Foro(TemplateView):
 
     def get_context_data(self, **kwargs):
         context = super(Foro, self).get_context_data()
-        # Se usa https://rss2json.com para consultar el XML del foro ReynalDev
-        r = urllib.request.urlopen("https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.reddit.com%2Fr%2Fmexico.rss")
+        # Se usa https://rss2json.com para consultar el XML del foro 
+        r = urllib.request.urlopen("https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fwww.reddit.com%2Fu%2Feberesquivel")
         # Se carga en JSON
         data = json.loads(r.read().decode(r.info().get_param('charset') or 'utf-8'))
         # Solo se llaman los items y pasan al contexto
