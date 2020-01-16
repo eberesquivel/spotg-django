@@ -13,7 +13,7 @@
                     {% blocktrans %}Consultoría en proyectos de IoT,Desarrollo de sistemas bajo normas de calidad,Implementación de proyectos de infraestructura basada en IoT,Despliegue de sistemas en la nube{% endblocktrans %}
                 </p>
             </div>
-            <div class="col s12 m3 l3">
+            <!--div class="col s12 m3 l3">
                 <h5 class="white-text">{% trans 'Contacto' %}</h5>
                 <ul>
                     <li><a class="white-text" href="{% facebook_url %}">Facebook</a></li>
@@ -24,29 +24,8 @@
                             {% trans 'Foro' %}
                         </a>
                     </li>
-                </ul>
+                </ul-->
                 <!-- Subscribirse al canal de Youtube-->
-                
-            <div class="col s12 m3 l3">
-                <h5 class="white-text">{% trans 'Redes sociales' %}</h5>
-                <ul>
-                  <li><a class="white-text" href="#!"> <!-- CODIGO PAGINA FACEBOOK -->
-                    <div class="fb-page"
-                         data-href="{% facebook_url %}"
-                         data-small-header="false"
-                         data-adapt-container-width="true"
-                         data-hide-cover="false"
-                         data-show-facepile="true">
-                        <blockquote cite="{% facebook_url %}" class="fb-xfbml-parse-ignore">
-                            <a href="{% facebook_url %}">zralei</a>
-                        </blockquote>
-                    </div></a></li>
-                  <li><a class="white-text" href="#!">Link 2</a></li>
-                  <li><a class="white-text" href="#!">Link 3</a></li>
-                  <li><a class="white-text" href="#!">Link 4</a></li>
-                </ul>
-               
-                <!-- CODIGO BOTON LIKE FACEBOOK -->
                 <div class="g-ytsubscribe"
                      data-channelid="kU5mSnmxRZpSyEOIlS95gA"
                      data-layout="full"
@@ -63,7 +42,27 @@
                 </a>
                 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                 <!-- CODIGO BOTON TWITTER SEGUIR -->
-            </div>
+            </!--div>
+            <div class="col s12 m3 l3">
+                <h5 class="white-text">{% trans 'Redes sociales' %}</h5>
+                <!--ul>
+                  <li><a class="white-text" href="#!">Link 1</a></li>
+                  <li><a class="white-text" href="#!">Link 2</a></li>
+                  <li><a class="white-text" href="#!">Link 3</a></li>
+                  <li><a class="white-text" href="#!">Link 4</a></li>
+                </ul-->
+                <!-- CODIGO PAGINA FACEBOOK -->
+                <div class="fb-page"
+                     data-href="{% facebook_url %}"
+                     data-small-header="false"
+                     data-adapt-container-width="true"
+                     data-hide-cover="false"
+                     data-show-facepile="true">
+                    <blockquote cite="{% facebook_url %}" class="fb-xfbml-parse-ignore">
+                        <a href="{% facebook_url %}">zralei</a>
+                    </blockquote>
+                </div>
+                <!-- CODIGO BOTON LIKE FACEBOOK -->
                 <br>
                 <div class="fb-like"
                      data-href="{% facebook_url %}"
