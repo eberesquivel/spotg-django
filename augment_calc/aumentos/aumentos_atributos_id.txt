@@ -1,0 +1,178 @@
+16163	Active: Temporarily increases the size of your head.
+16164	Active: Temporarily increases your lung capacity.
+16165	Active: Temporarily increases the distance you can fall without sustaining damage.
+16166	Active: Temporarily increases resistance to damage from falling.
+16167	Active: Ignites a firecracker.
+16168	Active: Play music for a short duration.
+16169	Active: Ignites a large firecracker.
+16170	Chance: Temporarily decreases your target's will to attack during a physical attack.
+16171	Chance: Temporarily increases your target's will to attack during a physical attack.
+16172	Chance: Momentarily decreases your target's speed during a physical attack.
+16173	Chance: Temporarily decreases your target's will to attack during a critical attack.
+16174	Chance: Temporarily increases your target's will to attack during a critical attack.
+16175	Chance: Momentarily decreases your target's speed during a critical attack.
+16176	Chance: Momentarily decreases your target's speed during a magic attack. Effect 3.
+16177	Passive: Increases lung capacity.
+16178	Passive: Increases the height from which you can fall without sustaining damage.
+16179	Passive: Raises resistance to damage from falling.
+16180	Active: Temporarily decreases your target's Atk. Spd.
+16181	Active: Temporarily increases Dodge.
+16182	Active: Temporarily causes a target to bleed heavily.
+16183	Active: Restores your CP.
+16184	Active: Inflicts damage by throwing a boulder.
+16185	Active: Momentarily frightens away your target.
+16186	Active: Detonates a fireball by compressing the air around the caster.
+16187	Active: Decreases your target's will to attack.
+16188	Active: Decreases your target's will to attack.
+16189	Active: Increases your target's will to attack.
+16190	Active: Temporarily increases your Accuracy.
+16191	Active: Temporarily holds your target. Your target cannot be affected by any additional hold attacks while the effect lasts.
+16192	Active: Launches a sacred magic attack.
+16193	Active: Temporarily increases the power of HP recovery magic.
+16194	Active: Temporarily increases the effectiveness of HP recovery magic.
+16195	Active: Instantly restores your HP.
+16196	Active: Temporarily increases your M. Atk.
+16197	Active: Temporarily increases your maximum CP.
+16198	Active: Increases your maximum HP temporarily and restores HP by the increased amount.
+16199	Active: Temporarily increases your maximum HP.
+16200	Active: Temporarily increases your maximum MP.
+16201	Active: Temporarily increases your M. Def.
+16202	Active: Burns up your enemy's MP.
+16203	Active: Increases your MP recharge recovery rate.
+16204	Active: Regenerates MP.
+16205	Active: Unleashes a general attack and temporarily decreases your magic attack power during PvP.
+16206	Active: Temporarily increases your P. Atk.
+16207	Active: Temporarily paralyzes a target.
+16208	Active: Temporarily increases your P. Def.
+16209	Active: Temporarily poisons your target.
+16210	Active: Temporarily decreases your target's P.Atk. during PvP.
+16211	Active: Temporarily increases your P.Atk. during PvP.
+16212	Active: Teleports the caster to a village. Cannot be used in a specially designated place such as the GM Consultation Service.
+16213	Active: Resurrects a corpse.
+16214	Active: Emits an area of effect earth attack.
+16215	Active: Emits an area of effect fire attack.
+16216	Active: Emits an area of effect sacred magic attack.
+16217	Active: Emits elemental damage over an area.
+16218	Active: Emits an area of effect dark attack.
+16219	Active: Emits an area of effect water attack.
+16220	Active: Emits an area of effect wind attack.
+16221	Active: Temporarily puts your target to sleep. Your target cannot be affected by any additional sleep attacks while the effect lasts.
+16222	Active: Temporarily decreases your target's speed.
+16223	Active: Temporarily stuns your target.
+16224	Active: Inflicts an earth attack.
+16225	Active: Inflicts a fire attack.
+16226	Active: Inflicts a sacred magic attack.
+16227	Active: Inflicts elemental damage.
+16228	Active: Inflicts a dark attack.
+16229	Active: Inflicts a water attack.
+16230	Active: Inflicts a wind attack.
+16231	Active: Cancels your enemy's target.
+16232	Active: Temporarily petrifies your target.
+16233	Active: Launches a dark attack.
+16234	Active: Has a chance to open doors and treasure chests. Requires Keys of a Thief.
+16235	Active: Absorbs HP from your target.
+16236	Active: Inflicts a water attack.
+16237	Active: Inflicts a fire attack.
+16238	Chance: Momentarily decreases your target's Atk. Spd. during a physical attack.
+16239	Chance: Momentarily causes your target to bleed during a physical attack.
+16240	Chance: Momentarily frightens away your target during a physical attack.
+16241	Chance: Momentarily holds your target during a physical attack. Your target cannot be affected by any additional hold attacks while the effect lasts.
+16242	Chance: Momentarily poisons your target during a physical attack.
+16243	Chance: Momentarily petrifies your target during a physical attack.
+16244	Chance: Momentarily decreases your target's Atk. Spd. during a critical attack.
+16245	Chance: Momentarily causes your target to bleed during a critical attack.
+16246	Chance: Momentarily frightens your target during a critical attack.
+16247	Chance: Momentarily holds your target during a critical attack. Your target cannot be affected by any additional hold attacks while the effect lasts.
+16248	Chance: Momentarily poisons your target during a critical attack.
+16249	Chance: Momentarily petrifies your target during a critical attack.
+16250	Chance: Has a chance to decrease the Atk. Spd. of a target that damages you..
+16251	Chance: Has a chance to increase your Evasion when you take damage.
+16252	Chance: Has a chance to cause bleeding on a target that damages you.
+16253	Chance: Has a chance to regenerate CP when you take damage.
+16254	Chance: Has a chance to increase critical attack rate when you take damage.
+16255	Chance: Has a chance to decrease the will to attack of a target that damages you.
+16256	Chance: Has a chance to increase your Accuracy when you take damage.
+16257	Chance: Has a chance to hold a target that damages you. Your target cannot be affected by any additional hold attacks while the effect lasts.
+16258	Chance: Has a chance to increase the effectiveness of HP recovery magic when you take damage.
+16259	Chance: Has a chance to regenerate HP when you take damage.
+16260	Chance: Has a chance to increase your M. Atk. when you take damage.
+16261	Chance: Has a chance to increase critical attack rate of magic attacks when you take damage.
+16262	Chance: Has a chance to increase your maximum CP when you take damage.
+16263	Chance: Has a chance to increase your maximum HP when you take damage.
+16264	Chance: Has a chance to increase your maximum MP when you take damage.
+16265	Chance: Has a chance to increase your M. Def. when you take damage.
+16266	Chance: Has a chance to increase your P. Atk. when you take damage.
+16267	Chance: Has a chance to increase your P. Def. when you take damage.
+16268	Chance: Has a chance to poison a target that damages you.
+16269	Chance: Has a chance to decrease the PVP power of a target that damages you in PvP.
+16270	Chance: Has a chance to increase your PVP power when you take damage in PvP.
+16271	Chance: Has a chance to sleep a target that damages you. Your target cannot be affected by any additional sleep attacks while the effect lasts.
+16272	Chance: Has a chance to decrease the speed of a target that damages you in PvP.
+16273	Chance: Momentarily decreases your target's Atk. Spd. during a magic attack.
+16274	Chance: Momentarily causes your target to bleed during a magic attack.
+16275	Chance: Momentarily frightens away your target during a magic attack.
+16276	Chance: Momentarily holds your target during a magic attack. Your target cannot be affected by any additional hold attacks while the effect lasts.
+16277	Chance: Momentarily poisons your target during a magic attack.
+16278	Chance: Momentarily petrifies your target during a magic attack.
+16279	Passive: Increases the power of HP recovery magic.
+16280	Passive: Increases the effectiveness of HP recovery magic.
+16281	Passive: Increases your M. Atk.
+16282	Passive: Increases your M. Def.
+16283	Passive: Increases your P. Atk.
+16284	Passive: Increases your P. Def.
+16285	Passive: Increases your P. Atk. in PvP.
+16286	Passive: Increases your weight limit by 2.
+16287	Active: Temporarily decreases all skill re-use times.
+16288	Active: Temporarily decreases MP consumption rates for all skills.
+16289	Active: Temporarily increases your critical attack rate.
+16290	Active: Temporarily reflects some of the damage you receive back to the enemy. Excludes damage from skills or ranged attacks.
+16291	Active: Temporarily blocks all of your target's physical/magic skills.
+16292	Active: Teleports you to the nearest village. Cannot be used in a specially designated place such as the GM Consultation Service.
+16293	Active: Renders you momentarily invincible.
+16294	Active: Temporarily increases your critical attack rate for magic attacks.
+16295	Active: Teleports party members to a village. Cannot be used in a specially designated place such as the GM Consultation Service.
+16296	Active: Temporarily blocks your target's magic skills.
+16297	Active: Temporarily decreases the skill re-use time.
+16298	Active: Temporarily decreases the skill MP consumption rate.
+16299	Active: Temporarily decreases the re-use time for singing and dancing skills.
+16300	Active: Temporarily decreases the MP consumption rate for singing and dancing skills.
+16301	Active: Temporarily decreases the magic re-use time.
+16302	Active: Temporarily decreases the magic MP consumption rate.
+16303	Active: Temporarily blocks a monster's pre-emptive attack. Fighting ability significantly decreases while in effect.
+16304	Active: Temporarily increases the amount of HP absorbed from damage done to your target. Excludes damage by skill or ranged attacks.
+16305	Chance: Momentarily blocks all of your target's physical and magic skills during a physical attack.
+16306	Chance: Momentarily burns up your target's MP during a physical attack.
+16307	Chance: Momentarily paralyzes your target during a physical attack.
+16308	Chance: Momentarily blocks your target's magic skill during a physical attack.
+16309	Chance: Momentarily puts your target to sleep during a physical attack. Your target cannot be affected by any additional sleep attacks while the effect lasts.
+16310	Chance: Momentarily stuns your target during a physical attack.
+16311	Chance: Momentarily blocks all of your target's physical and magic skills during a critical attack.
+16312	Chance: Momentarily burns up your target's MP during a critical attack.
+16313	Chance: Momentarily paralyzes your target during a critical attack.
+16314	Chance: Momentarily blocks your target's magic skill during a critical attack.
+16315	Chance: Momentarily puts your target to sleep during a critical attack. Your target cannot be affected by any additional sleep attacks while the effect lasts.
+16316	Chance: Momentarily stuns your target during a critical attack.
+16317	Chance: Has a chance to block the use of all physical and magical skills by a target that damages you.
+16318	Chance: Has a chance to frighten away a target that damages you.
+16319	Chance: Has a chance to increase the effectiveness of MP recovery magic when you take damage.
+16320	Chance: Has a chance to regenerate MP when you take damage.
+16321	Chance: Has a chance to paralyze a target that damages you.
+16322	Chance: Has a chance to block the use of all magic skills by a target that damages you.
+16323	Chance: Has a chance to stun a target that damages you.
+16324	Chance: Has a chance to petrify a target that damages you.
+16325	Chance: Momentarily blocks all of your target's physical and magic skills during a magic attack.
+16326	Chance: Momentarily burns up your target's MP during a magic attack.
+16327	Chance: Momentarily paralyzes your target during a magic attack.
+16328	Chance: Momentarily blocks your target's magic skill during a magic attack.
+16329	Chance: Momentarily puts your target to sleep during a magic attack. Your target cannot be affected by any additional sleep attacks while the effect lasts.
+16330	Chance: Momentarily stuns your target during a magic attack.
+16331	Passive: Decreases the MP consumption rate for all skills.
+16332	Passive: Increases your Evasion.
+16333	Passive: Increases your critical attack rate.
+16334	Passive: Increases the ability to reflect some of the damage you incurred back to the enemy. Excludes damage by skill or ranged attacks.
+16335	Passive: Increases your Accuracy.
+16336	Passive: Increases the critical attack rate of magic attacks.
+16337	Passive: Increases your MP recharge recovery rate.
+16338	Passive: Decreases the skill MP consumption rate.
+16339	Passive: Decreases the song/dance skill MP consumption rate.
+16340	Passive: Decreases the magic MP consumption rate.
