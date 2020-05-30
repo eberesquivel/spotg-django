@@ -5563,7 +5563,7 @@ button.btn-floating {
     min-height: 3rem;
     line-height: 3rem;
     padding: 0 1rem;
-    background-color: #97ebe4d1;
+    background-color: hsla(135, 46%, 53%, 0.82);
     border-bottom: 1px solid #ddd
 }
 
