@@ -5578,7 +5578,7 @@ button.btn-floating {
 
 .collapsible-body {
     display: none;
-    border-bottom: 1px solid #ddd;
+    /* border-bottom: 1px solid #ddd; */
     box-sizing: border-box;
     padding: 2rem
     background-color: #56ee86;
