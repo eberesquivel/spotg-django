@@ -39,51 +39,21 @@
           <li><a class="white-text" href="#!">Link 4</a></li>
         </ul-->
         <!-- CODIGO PAGINA FACEBOOK -->
-        <div class="g-ytsubscribe"
-             data-channelid="UCkU5mSnmxRZpSyEOIlS95gA"
-             data-userid="kU5mSnmxRZpSyEOIlS95gA"
-             data-layout="full"
-             data-theme="dark"
-             data-count="data-show-count"
-                         
-             data-onytevent="onYtEvent">
-        </div>
-        <p></p>
-        <!-- CODIGO BOTON GITHUB SEGUIR -->
-        <a class="github-button" href="https://github.com/eberesquivel" aria-label="Follow @eberesquivel on GitHub">Sigue @eberesquivel</a>
-        <!-- CODIGO BOTON GITHUB SEGUIR -->
-        <p></p>
-        <!-- CODIGO BOTON TWITTER SEGUIR -->
-        <a href="https://twitter.com/zralei?ref_src=twsrc%5Etfw"
-           class="twitter-follow-button"
-           data-show-count="false">Follow @zrilae
-        </a>
-        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <!-- CODIGO BOTON TWITTER SEGUIR -->
+        <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="images/office.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
+              <p><a href="#">This is a link</a></p>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
+              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+            </div>
+          </div>    
     </div>
-        <div class="fb-page"
-             data-href="{% facebook_url %}"
-             data-small-header="false"
-             data-adapt-container-width="true"
-             data-hide-cover="false"
-             data-show-facepile="true">
-            <blockquote cite="{% facebook_url %}" class="fb-xfbml-parse-ignore">
-                <a href="{% facebook_url %}">zralei</a>
-            </blockquote>
-        </div>
-        <!-- CODIGO BOTON LIKE FACEBOOK -->
-        <br>
-        <div class="fb-like"
-             data-href="{% facebook_url %}"
-             data-layout="button"
-             data-action="like"
-             data-size="large"
-             data-show-faces="true"
-             data-share="true"
-             data-colorscheme="dark">
-        </div>
-    </div>
-</div>
+    
     <div class="footer-copyright">
         <div class="container">
             {% trans 'Hecho con' %}
