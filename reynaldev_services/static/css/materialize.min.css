@@ -7766,7 +7766,8 @@ input[type=range]:focus::-ms-fill-upper {
     margin: 0 12px;
     background-color: #63b2f3;
     transition: background-color .9s;
-    border-radius: 50%
+    border-radius: 50%;
+    border-style:groove
 }
 
 .slider .indicators .indicator-item.active {
