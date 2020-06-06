@@ -2693,6 +2693,7 @@ ul.staggered-list li {
 
 .page-footer {
     padding-top: 10px;
+    display: flow-root list-item;
     
     
     background-color: #2ba6ff;
