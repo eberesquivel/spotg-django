@@ -2713,6 +2713,21 @@ ul.staggered-list li {
    
 }
 
+.page-footer .footer-derechos {
+    overflow: hidden;
+    min-height: 50px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px 0;
+    color: rgba(255, 255, 255, .8);
+    background-color: rgba(51, 51, 51, .08);
+   
+}
+
 table,
 th,
 td {
