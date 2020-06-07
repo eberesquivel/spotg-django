@@ -793,9 +793,7 @@ table#change-history tbody th {
     clear: both;
     padding: 10px;
     position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
+   
 }
 
 /* COLUMN TYPES */
