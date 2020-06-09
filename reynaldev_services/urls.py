@@ -23,6 +23,5 @@ urlpatterns = [
     path('', include('informacion.urls')),
     
     path('', include('rgbtobgr.urls')),
-    path('', include('actividad.urls')),
-    re_path(r'^robots.txt$', lambda r: HttpResponse("User-agent: * Disallow: /"))
+    
 ]

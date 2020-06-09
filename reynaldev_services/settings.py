@@ -33,7 +33,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'informacion',
-    'augment_calc',
     'rgbtobgr',
     'actividad',
 ]
