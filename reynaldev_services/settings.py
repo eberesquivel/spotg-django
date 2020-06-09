@@ -34,7 +34,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'informacion',
     'rgbtobgr',
-    'actividad',
+    
 ]
 
 # El orden de los MIDDLEWARE son muy importantes
