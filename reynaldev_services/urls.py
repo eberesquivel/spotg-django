@@ -21,7 +21,7 @@ urlpatterns = [
     path('i18n/', include('django.conf.urls.i18n')),
     path('admin/', admin.site.urls),
     path('', include('informacion.urls')),
-    path('', include('augment_calc.urls')),
+    
     path('', include('rgbtobgr.urls')),
     path('', include('actividad.urls')),
     re_path(r'^robots.txt$', lambda r: HttpResponse("User-agent: * Disallow: /"))
