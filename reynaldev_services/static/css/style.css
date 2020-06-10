@@ -7,6 +7,9 @@
  */
 
 body {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
 
   /* background-color: #755ea0!important; */
   background-color: rgb(55, 17, 124)!important;
@@ -66,6 +69,8 @@ p {
 
 footer.page-footer {
   margin: 0;
+  align-self: flex-end;
+  width:100%;
   
 }
 
