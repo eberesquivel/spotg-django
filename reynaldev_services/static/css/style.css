@@ -285,3 +285,9 @@ color: #125688;
 background: #fefefe;
 border-color: #125688;
 }
+
+canvas {
+	background: #eee;
+	display : block;
+	margin:0 auto;
+}
