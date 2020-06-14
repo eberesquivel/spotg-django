@@ -297,10 +297,15 @@ input[type=text] {
   padding: 12px 20px;
   margin: 8px 0;
   box-sizing: border-box;
-  border: 1px solid #555;
-  outline: none;
+  border: 4px solid #e6a638;
+
+ 
 }
 
 input[type=text]:focus {
-  background-color: lightblue;
+  background-color: #e6a638;
 }
+
+label {
+  color: #e6a638;
+} 
