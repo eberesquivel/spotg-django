@@ -293,10 +293,3 @@ canvas {
 	margin:0 auto;
 }
 
-input .mensaje {
-
-  border-radius: 120px;
-  width: 100%;
-  font-size: 1rem;
-  margin: 6px 0 -4px 0;
-}

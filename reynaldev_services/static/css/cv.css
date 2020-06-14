@@ -538,3 +538,11 @@ h3 {
 .resume .func .interests-items div span {
   display: block;
 }
+
+input .mensaje {
+
+  border-radius: 120px;
+  width: 100%;
+  font-size: 1rem;
+  margin: 6px 0 -4px 0;
+}
