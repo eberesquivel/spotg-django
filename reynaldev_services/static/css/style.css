@@ -292,3 +292,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 	display : block;
 	margin:0 auto;
 }
+
+input {
+
+  border-radius: 120px;
+  width: 100%;
+font-size: 1rem;
+margin: 6px 0 -4px 0;
+}
