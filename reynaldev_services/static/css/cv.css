@@ -546,3 +546,9 @@ input .mensaje {
   font-size: 1rem;
   margin: 6px 0 -4px 0;
 }
+
+@media (max-width: 400px) {
+  .flex-grid {
+    display: block;
+  }
+}
