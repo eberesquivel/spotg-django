@@ -8,7 +8,7 @@ class Inicio(TemplateView):
     template_name = 'informacion/inicio.html'
 
 
-class Pago(TemplateView):
+class Cv(TemplateView):
     template_name = 'informacion/pago.html'
 
 
