@@ -293,7 +293,7 @@ canvas {
 	margin:0 auto;
 }
 
-input {
+input .mensaje {
 
   border-radius: 120px;
   width: 100%;
