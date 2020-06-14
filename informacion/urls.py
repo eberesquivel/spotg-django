@@ -20,7 +20,7 @@ from .views import *
 urlpatterns = [
     path('', Inicio.as_view(), name='inicio'),
     path('servicios/', Servicios.as_view(), name='servicios'),
-    path('pago/', Pago.as_view(), name='pago'),
+    path('cv/', CV.as_view(), name='cv'),
     path('donacion/', Donacion.as_view(), name='donacion'),
     path('locacion/', Locacion.as_view(), name='locacion'),
     path('comentarios/', Comentarios.as_view(), name='comentarios'),
