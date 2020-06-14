@@ -230,11 +230,11 @@ msgstr "More..."
 msgid "Donaciones"
 msgstr "Donations"
 
-#: .\templates\informacion\pago.html:39
-msgid "Métodos de pago"
+#: .\templates\informacion\cv.html:39
+msgid "Métodos de cv"
 msgstr "Payment methods"
 
-#: .\templates\informacion\pago.html:94
+#: .\templates\informacion\cv.html:94
 msgid "(SOLO MÉXICO)"
 msgstr "(ONLY MEXICO)"
 
@@ -273,7 +273,7 @@ msgid "Pague"
 msgstr "Pay"
 
 #: .\templates\informacion\servicios.html:49
-msgid "Haga su pago con:"
+msgid "Haga su cv con:"
 msgstr "Make your payment with:"
 
 #: .\templates\informacion\servicios.html:51
@@ -629,13 +629,13 @@ msgstr "your SCOPE"
 msgid "Condiciones"
 msgstr "Conditions"
 
-msgid "El pago deberá ser confirmado antes de realizar cualquier tipo de servicio"
+msgid "El cv deberá ser confirmado antes de realizar cualquier tipo de servicio"
 msgstr "Payment must be confirmed before performing any type of service"
 
 msgid "Toda consulta causa honorarios"
 msgstr "All inquiries cause fees"
 
-msgid "Paypal ofrece un pago seguro al utilizar el saldo de la cuenta Paypal.No es necesario tener saldo en la cuenta Paypal para hacer un pago, puede utilizar la tarjeta vinculada a su cuenta Paypal. De esta forma Paypal actúa como intermediario, Paypal hará el pago al hacer el cobro a la tarjeta.Si quiere hacer un pago de 5 USD y no tiene saldo en su cuenta Paypal, entonces puede usar su tarjeta de crédito o débito para efectuar el pago. Paypal hará un cargo a su tarjeta del mismo monto, es decir, 5 USD (para este ejemplo)."
+msgid "Paypal ofrece un cv seguro al utilizar el saldo de la cuenta Paypal.No es necesario tener saldo en la cuenta Paypal para hacer un cv, puede utilizar la tarjeta vinculada a su cuenta Paypal. De esta forma Paypal actúa como intermediario, Paypal hará el cv al hacer el cobro a la tarjeta.Si quiere hacer un cv de 5 USD y no tiene saldo en su cuenta Paypal, entonces puede usar su tarjeta de crédito o débito para efectuar el cv. Paypal hará un cargo a su tarjeta del mismo monto, es decir, 5 USD (para este ejemplo)."
 msgstr "Paypal offers a secure payment when using the balance of the Paypal account. It is not necessary to have a balance in the Paypal account to make a payment, you can use the card linked to your Paypal account. In this way Paypal acts as an intermediary, Paypal will make the payment when making the payment to the card. If you want to make a payment of 5 USD and have no balance in your Paypal account, then you can use your credit or debit card to make the payment . Paypal will charge your card the same amount, that is, 5 USD (for this example)."
 
 msgid "Solo debe proporcionar una dirección de correo electrónico válido donde recibirá un email, rellenará un formulario y se hará el cargo respectivo a su tarjeta."
