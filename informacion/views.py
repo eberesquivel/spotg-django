@@ -9,7 +9,7 @@ class Inicio(TemplateView):
 
 
 class Cv(TemplateView):
-    template_name = 'informacion/pago.html'
+    template_name = 'informacion/cv.html'
 
 
 class Servicios(TemplateView):
