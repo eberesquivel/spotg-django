@@ -222,7 +222,7 @@ msgid "Contratar"
 msgstr "Contract"
 
 #: .\templates\informacion\inicio.html:33
-msgid "Entrega garantizada o se reembolsa el cv."
+msgid "Entrega garantizada o se reembolsa el pago."
 msgstr "Guaranteed delivery or payment is refunded."
 
 #: .\templates\informacion\inicio.html:80
@@ -233,11 +233,11 @@ msgstr "More..."
 msgid "Donaciones"
 msgstr "Donations"
 
-#: .\templates\informacion\cv.html:39
-msgid "Métodos de cv"
+#: .\templates\informacion\pago.html:39
+msgid "Métodos de pago"
 msgstr "Payment methods"
 
-#: .\templates\informacion\cv.html:94
+#: .\templates\informacion\pago.html:94
 msgid "(SOLO MÉXICO)"
 msgstr "(ONLY MEXICO)"
 
@@ -274,7 +274,7 @@ msgid "Pague"
 msgstr "Pay"
 
 #: .\templates\informacion\servicios.html:49
-msgid "Haga su cv con:"
+msgid "Haga su pago con:"
 msgstr "Make your payment with:"
 
 #: .\templates\informacion\servicios.html:51
