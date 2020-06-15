@@ -292,7 +292,7 @@ canvas {
 	margin:0 auto;
 }
 
-input[type="text"] {
+input[type="text"]:not(.browser-default) {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
