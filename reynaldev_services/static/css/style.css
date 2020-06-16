@@ -328,3 +328,8 @@ label {
 :-ms-input-placeholder {
   color: #1c71d3;
 }
+
+
+button{
+  width: 100%;
+}
