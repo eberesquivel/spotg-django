@@ -300,8 +300,9 @@ input[type="text"]:not(.browser-default) {
   margin: 8px 0;
   box-sizing: border-box;
   
+  color: #000000;
   font-size: 12px;
-  background-color: white;
+ 
 }
 
 
