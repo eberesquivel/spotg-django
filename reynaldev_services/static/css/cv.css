@@ -558,3 +558,19 @@ input .mensaje {
     display: block;
   }
 }
+
+/* Four Column Layout */
+@media(min-width:1200px){
+  width: calc( ( 100% - ( 20px * 3 ) ) / 4 ); 
+}
+
+
+/* Three Column Layout */
+@media(min-width:800px){
+  width: calc( ( 100% - ( 20px * 2 ) ) / 3 ); 
+}
+
+/* Two Column Layout */
+@media(min-width:650px){
+  width: calc( ( 100% - ( 20px * 1 ) ) / 2 ); 
+}

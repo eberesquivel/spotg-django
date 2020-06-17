@@ -36,8 +36,6 @@ class Foro(TemplateView):
         # Solo se llaman los items y pasan al contexto
         context['ultimos_temas'] = data['items']
 
-        # Esta es la forma mas sencilla, pero pythonanywhere no me permite usarla directamente
-        # context['ultimos_temas'] = feedparser.parse("https://l2devsadmins.net/reynaldev/index.php?action=.xml;type=rss")
         return context
 
 
