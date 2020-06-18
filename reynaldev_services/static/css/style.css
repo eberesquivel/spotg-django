@@ -340,6 +340,6 @@ button{
 }
 
 
-breadcrumb {
+.breadcrumb:last-child{
   background-color: #55acee;
 }
