@@ -356,7 +356,11 @@ right: auto;
 
 
 .btn-floating {
-  width: 56px;
-  height: 56px;
+ 
   background-color: #1a237e;
+}
+
+.btn-floating  :hover{
+ 
+  background-color: #1c279c;
 }
