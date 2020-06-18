@@ -25,7 +25,7 @@ class Comentarios(TemplateView):
 
 
 class Foro(TemplateView):
-    template_name = 'foro_rss/reynaldev.html'
+    template_name = 'foro_rss/foro.html'
 
     def get_context_data(self, **kwargs):
         context = super(Foro, self).get_context_data()
