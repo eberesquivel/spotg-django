@@ -352,3 +352,11 @@ margin-left: -26px;
 left: auto;
 right: auto;
 }
+
+
+row {
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-bottom: 21px;
+  display: ruby-base;
+}
