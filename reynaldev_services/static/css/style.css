@@ -354,9 +354,14 @@ right: auto;
 }
 
 
-row {
+.row {
   margin-left: 180px;
   margin-right: 180px;
   margin-bottom: 21px;
   display: ruby-base;
+}
+
+.btn-floating.btn-large {
+  width: 56px;
+  height: 56px;
 }
