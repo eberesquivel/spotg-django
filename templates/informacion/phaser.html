@@ -1,0 +1,14 @@
+{% extends 'components/base.html' %}
+{% load staticfiles %}
+{% load i18n %}
+{% block contenido %}
+    <!-- Breadcrumb -->
+    <nav class="grey darken-4">
+        <div class="nav-wrapper">
+            <div class="col s12">
+                <a href="{% url 'inicio' %}" class="breadcrumb"><a href="{% url 'inicio' %}" class="breadcrumb"><i class="fa fa-home blue" aria-hidden="true"></i>
+                </a>
+                <a href="{% url 'phaser' %}" class="breadcrumb">{% trans 'Phaser' %}</a>
+            </div>
+        </div>
+    </nav>

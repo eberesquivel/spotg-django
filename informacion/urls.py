@@ -26,4 +26,5 @@ urlpatterns = [
     path('comentarios/', Comentarios.as_view(), name='comentarios'),
     path('foro/', Foro.as_view(), name='foro'),
     path('faqs/', Faqs.as_view(), name='faqs'),
+    path('phaser/', Phaser.as_view(), name='phaser'),
 ]

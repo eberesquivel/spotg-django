@@ -47,3 +47,6 @@ class Mapa(TemplateView):
 
 class Locacion(TemplateView):
     template_name = 'informacion/locacion.html'
+
+class Phaser(TemplateView):
+    template_name = 'informacion/phaser.html'
