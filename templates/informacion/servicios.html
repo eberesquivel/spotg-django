@@ -3,15 +3,15 @@
 {% load i18n %}
 {% block contenido %}
     <!-- Breadcrumb -->
-    <nav class="grey darken-4">
+    <nav>
         <div class="nav-wrapper">
             <div class="col s12">
                 <a href="{% url 'inicio' %}" class="breadcrumb">
                     <a href="{% url 'inicio' %}" class="breadcrumb"><i class="fa fa-home blue" aria-hidden="true"></i>
                     </a>
-                <a href="{% url 'cv' %}" class="breadcrumb">
+               <!--  <a href="{% url 'cv' %}" class="breadcrumb">
                     {% trans 'Servicios' %}
-                </a>
+                </a> -->
             </div>
         </div>
     </nav>
@@ -68,7 +68,7 @@
             </div>
             <!-- FIN Slider para pantallas medianas para arriba -->
         </div>
-        <div class="section">
+<!--         <div class="section">
             <div class="card-panel hoverable grey darken-4">
                 <p class="flow-text white-text">
                     <b>
@@ -79,15 +79,15 @@
             <h4 class="center">Precio</h4>
             <!-- <div class="divider"></div> -->
         </div>
-        <div class="card-panel teal">
+     <!--    <div class="card-panel teal">
             “Había una vez un ingeniero que fue llamado a arreglar una computadora de la que dependía gran parte
             del proceso productivo de una importante fábrica.
             <br>
             Sentado frente a la pantalla, oprimió unas cuantas teclas, asintió con la cabeza, murmuró algo para sí
             mismo y apagó el aparato.
                  </div>
-
-        <h4 class="center">{% trans 'Calidad' %}</h4>
+ -->
+        <h4 class="center">{% trans 'Calidad' %}</h4> -->
         <div class="divider"></div>
 
         <div class="row">
@@ -97,7 +97,7 @@
                     {% trans 'confiabilidad' %}
                 </a>
             </div>
-            <div class="col s12 m9">
+            <!-- <div class="col s12 m9">
                 <div class="card-panel hoverable">
                     <ol>
                         <li>{% trans 'Si desea <b>alta calidad a buen precio</b>, debe dar más tiempo.' %}</li>
@@ -105,7 +105,7 @@
                         <li>{% trans 'Si desea <b>buen precio en poco tiempo</b>, debe sacrificar la calidad.' %}</li>
                     </ol>
                 </div>
-            </div>
+            </div> -->
         </div>
 
     </div>

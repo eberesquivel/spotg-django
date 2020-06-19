@@ -25,7 +25,7 @@ class Comentarios(TemplateView):
 
 
 class Foro(TemplateView):
-    template_name = 'foro_rss/reynaldev.html'
+    template_name = 'foro_rss/foro.html'
 
     def get_context_data(self, **kwargs):
         context = super(Foro, self).get_context_data()
@@ -36,8 +36,6 @@ class Foro(TemplateView):
         # Solo se llaman los items y pasan al contexto
         context['ultimos_temas'] = data['items']
 
-        # Esta es la forma mas sencilla, pero pythonanywhere no me permite usarla directamente
-        # context['ultimos_temas'] = feedparser.parse("https://l2devsadmins.net/reynaldev/index.php?action=.xml;type=rss")
         return context
 
 
@@ -49,3 +47,6 @@ class Mapa(TemplateView):
 
 class Locacion(TemplateView):
     template_name = 'informacion/locacion.html'
+
+class Phaser(TemplateView):
+    template_name = 'informacion/phaser.html'

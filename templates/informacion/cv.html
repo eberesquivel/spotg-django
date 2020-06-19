@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {% extends 'components/base.html' %}
 {% load staticfiles %}
 {% load i18n %}
@@ -208,3 +209,162 @@
         </div>
       </div>
     {% endblock contenido %}
+=======
+{% extends 'components/base.html' %}
+{% load staticfiles %}
+{% load i18n %}
+{% block meta %}
+<head>
+   
+    
+    <link rel="stylesheet" href="{% static 'css/cv.css' %}">
+</head>
+    <meta property="og:title"       content="Experiencia" />
+    <meta property="og:description" content="Curriculum Vitae"/>
+{% endblock meta %}
+{% block contenido %}
+    <!-- Breadcrumb -->
+    <nav>
+        <div class="nav-wrapper">
+            <div class="col s12">
+                <a href="{% url 'inicio' %}" class="breadcrumb"><a href="{% url 'inicio' %}" class="breadcrumb"><i class="fa fa-home blue" aria-hidden="true"></i>
+                </a>
+              
+            </div>
+        </div>
+    </nav>
+    <!-- FIN Breadcrumb -->
+    <div class="resume">
+        <div class="base">
+          <div class="profile">
+            <div class="photo">
+              <!--<img src="" /> -->
+              <i class="fas fa-rocket"></i>
+            </div>
+            <div class="info">
+              <h1 class="name">Eber Raziel</h1>
+              <h2 class="job">Ingeniero en Sistemas </h2>
+            </div>
+          </div>
+          <div class="about">
+            <h3>Acerca de mi</h3>Implementador de soluciones IoT
+          </div>
+          <div class="contact">
+            <h3>Contacto</h3>
+            <div class="call"><a href="tel:123-456-7890"><i class="fas fa-phone"></i><span>5555555</span></a></div>
+            <div class="address"><a href="https://goo.gl/maps/"><i class="fas fa-map-marker"></i><span>CDMX, México</span></a>
+            </div>
+<!--             <div class="email"><a href="mailto:astronaomical@gmail.com"><i class="fas fa-envelope"></i><span>astronaomical</span></a></div>
+ -->            <div class="website"><a href="http://eberesquivel.pythonanywhere.com/" target="_blank"> <i class="fas fa-home"></i><span>eberesquivel.pythonanywhere.com</span></a></div>
+          </div>
+          <div class="follow">
+            <h3>Sígueme</h3>
+            <div class="box">
+              <a href="https://www.facebook.com/zralei/" target="_blank"><i class="fab fa-facebook"></i></a>
+              <a href="https://www.instagram.com/zralei/" target="_blank"><i class="fab fa-instagram "></i></a>
+              <a href="https://www.pinterest.com//" target="_blank"><i class="fab fa-pinterest"></i></a>
+              <a href="https://www.linkedin.com/in/naomi-weatherford-758385112/" target="_blank"><i class="fab fa-linkedin"></i></a>
+              <a href="https://codepen.io/astronaomical/" target="_blank"><i class="fab fa-codepen"></i></a>
+              <a href="https://www.behance.net/astronaomical" target="_blank"><i class="fab fa-behance"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="func">
+          <div class="work">
+            <h3><i class="fa fa-briefcase"></i>Experience</h3>
+            <ul>
+              <li><span>Implementador  <br>IoT </span><small>Freelance</small><small>Enero 2015 - Now</small></li>
+              <li><span>Analista de Sistemas</span><small>Root Technologies</small><small>Enero 2014 - Dec 2014</small></li>
+              <li><span>Analista IT</span><small>Ford Credit</small><small>Feb, 2012 - Dec, 2012</small></li>
+            </ul>
+          </div>
+          <div class="edu">
+            <h3><i class="fa fa-graduation-cap"></i>Educación</h3>
+            <ul>
+              <li><span>Universidad del Valle de Mexico<br>Ingenieria en Sistemas</span><small>BYU-Idaho</small><small>Jan. 2016 - Apr. 2018</small></li>
+              
+            </ul>
+          </div>
+          <div class="skills-prog">
+            <h3><i class="fas fa-code"></i>Code Skills</h3>
+            <ul>
+              <li data-percent="95"><span>HTML5</span>
+                <div class="skills-bar">
+                  <div class="bar"></div>
+                </div>
+              </li>
+              <li data-percent="90"><span>CSS3 & SCSS</span>
+                <div class="skills-bar">
+                  <div class="bar"></div>
+                </div>
+              </li>
+              <li data-percent="60"><span>JavaScript</span>
+                <div class="skills-bar">
+                  <div class="bar"></div>
+                </div>
+              </li>
+              <li data-percent="50"><span>jQuery</span>
+                <div class="skills-bar">
+                  <div class="bar"></div>
+                </div>
+              </li>
+              <li data-percent="40"><span>JSON</span>
+                <div class="skills-bar">
+                  <div class="bar"></div>
+                </div>
+              </li>
+              <li data-percent="55"><span>PHP</span>
+                <div class="skills-bar">
+                  <div class="bar"></div>
+                </div>
+              </li>
+              <li data-percent="40"><span>MySQL</span>
+                <div class="skills-bar">
+                  <div class="bar"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="skills-soft">
+            <h3><i class="fas fa-bezier-curve"></i>Software Skills</h3>
+            <ul>
+              <li data-percent="90">
+                <svg viewbox="0 0 100 100">
+                  <circle cx="50" cy="50" r="45"></circle>
+                  <circle class="cbar" cx="50" cy="50" r="45"></circle>
+                </svg><span>Illustrator</span><small></small>
+              </li>
+              <li data-percent="75">
+                <svg viewbox="0 0 100 100">
+                  <circle cx="50" cy="50" r="45"></circle>
+                  <circle class="cbar" cx="50" cy="50" r="45"></circle>
+                </svg><span>Photoshop</span><small></small>
+              </li>
+              <li data-percent="85">
+                <svg viewbox="0 0 100 100">
+                  <circle cx="50" cy="50" r="45"></circle>
+                  <circle class="cbar" cx="50" cy="50" r="45"></circle>
+                </svg><span>InDesign</span><small></small>
+              </li>
+              <li data-percent="65">
+                <svg viewbox="0 0 100 100">
+                  <circle cx="50" cy="50" r="45"></circle>
+                  <circle class="cbar" cx="50" cy="50" r="45"></circle>
+                </svg><span>Dreamweaver</span><small></small>
+              </li>
+            </ul>
+          </div>
+          <div class="interests">
+            <h3><i class="fas fa-star"></i>Interests</h3>
+            <div class="interests-items">
+              <div class="art"><i class="fas fa-palette"></i><span>Art</span></div>
+              <div class="art"><i class="fas fa-book"></i><span>Books</span></div>
+              <div class="movies"><i class="fas fa-film"></i><span>Movies</span></div>
+              <div class="music"><i class="fas fa-headphones"></i><span>Music</span></div>
+              <div class="games"><i class="fas fa-gamepad"></i><span>Games</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endblock contenido %}
+>>>>>>> baf864627e66feb280e711694f8729c57ee34597

@@ -546,3 +546,31 @@ input .mensaje {
   font-size: 1rem;
   margin: 6px 0 -4px 0;
 }
+
+.flex-grid {
+  display: flex;
+}
+.col {
+  flex: 1;
+}
+@media (max-width: 300px) {
+  .flex-grid {
+    display: block;
+  }
+}
+
+/* Four Column Layout */
+@media(min-width:1200px){
+  width: calc( ( 100% - ( 20px * 3 ) ) / 4 ); 
+}
+
+
+/* Three Column Layout */
+@media(min-width:800px){
+  width: calc( ( 100% - ( 20px * 2 ) ) / 3 ); 
+}
+
+/* Two Column Layout */
+@media(min-width:650px){
+  width: calc( ( 100% - ( 20px * 1 ) ) / 2 ); 
+}

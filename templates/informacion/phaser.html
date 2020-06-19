@@ -1,0 +1,17 @@
+{% extends 'components/base.html' %}
+{% load staticfiles %}
+{% load i18n %}
+{% block contenido %}
+    <!-- Breadcrumb -->
+    <nav>
+        <div class="nav-wrapper">
+            <div class="col s12">
+                <a href="{% url 'inicio' %}" class="breadcrumb"><a href="{% url 'phaser' %}" class="breadcrumb"><i class="fa fa-home blue" aria-hidden="true"></i>
+                </a>
+
+            </div>
+        </div>
+    </nav>
+ <iframe src="https://eberesquivel.github.io/juegophaser-html5/" frameborder="0"></iframe>
+{% endblock contenido %}
+
