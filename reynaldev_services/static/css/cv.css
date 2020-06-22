@@ -550,3 +550,7 @@ input .mensaje {
   margin: 6px 0 -4px 0;
 }
 
+
+.rounded-social-buttons .fa-github{
+  background-color: #0d0d0d;
+}
