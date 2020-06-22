@@ -262,6 +262,7 @@ h3 {
 .resume .func .work,
 .resume .func .edu {
   float: left;
+  background-color: #0d0d0d;
 }
 
 .resume .func .work small,
