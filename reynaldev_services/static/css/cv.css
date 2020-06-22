@@ -550,7 +550,7 @@ input .mensaje {
   margin: 6px 0 -4px 0;
 }
 
-
-.rounded-social-buttons .social-buttons.fa-github{
-  background: #0d0d0d;
+.rounded-social-buttons .social-button.instagram{
+ color: #0d0d0d;
+  background: #ffffff;
 }
