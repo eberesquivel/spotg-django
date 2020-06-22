@@ -47,6 +47,7 @@ h3 {
 .resume .func {
   box-sizing: border-box;
   float: left;
+  
 }
 
 .resume .base > div,
