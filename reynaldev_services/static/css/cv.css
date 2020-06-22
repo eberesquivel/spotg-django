@@ -338,7 +338,7 @@ h3 {
   width: 7px;
   height: 7px;
   border: 3px solid #ffffff;
-  background: #2ba6ff;
+  background: #0d0d0d;
   border-radius: 50%;
   left: 3px;
   z-index: 1;
@@ -361,20 +361,20 @@ h3 {
 
 .resume .func .work {
   width: 48%;
-  background: #283593;
+  background: #0d0d0d;
   padding: 15px;
   margin: 0 4% 15px 0;
 }
 
 .resume .func .edu {
   width: 48%;
-  background: #283593;
+  background: #0d0d0d;
   padding: 15px;
 }
 
 .resume .func .skills-prog {
   clear: both;
-  background: #283593;
+  background: #0d0d0d;
   padding: 15px;
 }
 
@@ -425,7 +425,7 @@ h3 {
 
 .resume .func .skills-soft {
   clear: both;
-  background: #283593;
+  background: #0d0d0d;
   padding: 15px;
   margin: 15px 0 0;
 }
