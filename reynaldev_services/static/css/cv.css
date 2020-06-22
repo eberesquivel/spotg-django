@@ -551,6 +551,6 @@ input .mensaje {
 }
 
 
-.rounded-social-buttons .fa-github{
-  background-color: #0d0d0d;
+.rounded-social-buttons .social-buttons.fa-github{
+  background: #0d0d0d;
 }
