@@ -443,7 +443,7 @@ h3 {
 }
 
 .resume .func .skills-soft ul li:hover svg .cbar {
-  stroke: #2ba6ff;;
+  stroke: #7aff0bde;
   stroke-width: 4px;
 }
 
