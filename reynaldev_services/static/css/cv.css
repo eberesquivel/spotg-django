@@ -185,7 +185,7 @@ h3 {
 }
 
 .resume .base .follow .box a:hover i {
-  background: #2ba6ff;
+  background: #7aff0bde;
   border-radius: 5px;
   -webkit-transform: rotate(45deg) scale(0.8);
           transform: rotate(45deg) scale(0.8);
