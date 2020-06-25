@@ -575,3 +575,9 @@ msgstr "Age"
 msgid "Sobre mí"
 msgstr "About me"
 
+
+msgid "Implementador de Sistemas IoT"
+msgstr "IoT Systems development & Deployment"
+
+msgid "Independiente"
+msgstr "Freelancer"
