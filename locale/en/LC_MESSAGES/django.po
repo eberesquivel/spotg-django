@@ -559,9 +559,5 @@ msgstr "Here you can find information on some projects in which I have participa
 msgid "JUEGA AGAR.IO"
 msgstr "PLAY AGAR.IO"
 
-msgid "Sitios"
-msgstr "Sites"
-
-
 msgid "Noticias IOT"
 msgstr "IOT Notices"
