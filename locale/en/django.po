@@ -561,3 +561,7 @@ msgstr "PLAY AGAR.IO"
 
 msgid "Sitios"
 msgstr "Sites"
+
+
+msgid "Noticias IOT"
+msgstr "IOT Notices"
