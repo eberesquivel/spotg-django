@@ -371,9 +371,10 @@ nav .nav-wrapper {
 
 .tarjeta-foro{
   width: 50%;
-margin-left: 25%;
-left: auto;
-right: auto;
+  margin-left: 25%;
+  left: auto;
+  right: auto;
+  border-radius: 25px;
 }
 
 
