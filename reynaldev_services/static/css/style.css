@@ -369,6 +369,11 @@ nav .nav-wrapper {
     line-height: 0px;
 }
 
-.amber-text {
-  color: rgba(122, 255, 11, 0.87);
+.tarjeta-foro{
+  width: 50%;
+margin-left: 25%;
+left: auto;
+right: auto;
 }
+
+
