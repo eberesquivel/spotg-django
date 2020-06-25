@@ -561,3 +561,6 @@ msgstr "PLAY AGAR.IO"
 
 msgid "Noticias IOT"
 msgstr "IOT Notices"
+
+msgid "Ingeniero en Sistemas Computacionales"
+msgstr "Systems Engineer"
