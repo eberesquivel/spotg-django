@@ -571,3 +571,7 @@ msgstr "Family Guy"
 msgid "Edad"
 msgstr "Age"
 
+
+msgid "Sobre mí"
+msgstr "About me"
+
