@@ -199,12 +199,12 @@ h3 {
 .resume .base .follow .box i {
   display: inline-block;
   font-size: 30px;
-  background: #2ba6ff;
+  background: #144e66;
   width: 60px;
   height: 60px;
   border-radius: 50%;
   line-height: 60px;
-  color: #283593;
+  color: #ffffff;
   margin: 0 10px 10px 10px;
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
