@@ -581,3 +581,9 @@ msgstr "IoT Systems development & Deployment"
 
 msgid "Independiente"
 msgstr "Freelancer"
+
+msgid "Analista de Sistemas"
+msgstr "System Analyst"
+
+msgid "Analista IT"
+msgstr "IT Analyst"
