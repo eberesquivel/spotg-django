@@ -418,8 +418,8 @@ h3 {
   position: absolute;
   top: -1px;
   height: 4px;
-  background: #7aff0bde;
-  box-shadow: 0 0 0 #ffb300;
+  background: #2ba6ff;
+  box-shadow: 0 0 0 #7aff0bde;
   border-radius: 5px;
 }
 
@@ -467,7 +467,7 @@ h3 {
 
 .resume .func .skills-soft ul li svg .cbar {
   stroke-width: 3px;
-  stroke: #ffb300;
+  stroke: #2ba6ff;
   stroke-linecap: round;
 }
 
