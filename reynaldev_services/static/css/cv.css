@@ -397,8 +397,8 @@ h3 {
 }
 
 .resume .func .skills-prog ul li:hover .skills-bar .bar {
-  background: #2ba6ff;;
-  box-shadow: 0 0 0 1px #7aff0bde;;
+  background: #7aff0bde;
+  box-shadow: 0 0 0 1px #2ba6ff;
 }
 
 .resume .func .skills-prog ul li span {
