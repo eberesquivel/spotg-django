@@ -398,7 +398,7 @@ h3 {
 
 .resume .func .skills-prog ul li:hover .skills-bar .bar {
   background: #2ba6ff;;
-  box-shadow: 0 0 0 1px #2ba6ff;;
+  box-shadow: 0 0 0 1px #7aff0bde;;
 }
 
 .resume .func .skills-prog ul li span {
@@ -533,7 +533,7 @@ h3 {
   width: 60px;
   height: 60px;
   line-height: 60px;
-  color: #ffb300;
+  color: #2ba6ff;
   -webkit-transition-duration: 0.3s;
           transition-duration: 0.3s;
 }
