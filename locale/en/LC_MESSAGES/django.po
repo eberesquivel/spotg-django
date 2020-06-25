@@ -564,3 +564,10 @@ msgstr "IOT Notices"
 
 msgid "Ingeniero en Sistemas Computacionales"
 msgstr "Systems Engineer"
+
+msgid "Padre de Familia"
+msgstr "Family Guy"
+
+msgid "Edad"
+msgstr "Age"
+
