@@ -1,9 +1,10 @@
+
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-02-20 19:07-0600\n"
-"PO-Revision-Date: 2019-04-08 23:24-0500\n"
+"PO-Revision-Date: 2019-03-20 19:11-0600\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -85,16 +86,18 @@ msgid "Apasionado por el desarrollo de aplicaciones IoT"
 msgstr "Passionate about the development of IoT applications"
 
 #: .\templates\components\footer.html:12
-msgid "Consultoría en proyectos de IoT,Desarrollo de sistemas bajo normas de calidad,Implementación de proyectos de infraestructura basada en IoT,Despliegue de sistemas en la nube"
-msgstr "Consultancy in IoT projects, Development of systems under quality standards, Implementation of infrastructure projects based on IoT, Deployment of systems in the cloud"
+msgid ""
+"Consultoría en proyectos de IoT,Desarrollo de sistemas bajo normas de calidad,Implementación de proyectos de infraestructura basada en IoT,"
+"Despliegue de sistemas en la nube"
+msgstr ""
+"Consultancy in IoT projects, Development of systems under quality standards, Implementation of infrastructure projects based on IoT, "
+"Deployment of systems in the cloud"
 
-#: .\templates\components\footer.html:16
-#: .\templates\components\navbar\desktop\dropdown\dropdown_informacion.html:16
+#: .\templates\components\footer.html:16 .\templates\components\navbar\desktop\dropdown\dropdown_informacion.html:16
 msgid "Contacto"
 msgstr "Contact"
 
-#: .\templates\components\footer.html:23
-#: .\templates\servicios\servicios.html:163
+#: .\templates\components\footer.html:23 .\templates\servicios\servicios.html:163
 msgid "Foro"
 msgstr "Forum"
 
@@ -107,23 +110,29 @@ msgid "Hecho con"
 msgstr "Made with"
 
 #: .\templates\components\modal\modal_youtube.html:12
-msgid "\n"
-"                        Visita mi sitio en  <a href=\"http://eberesquivel.com\"><strong>Eber Raziel</strong></a>\n"
-"                        podrás encontrar <b>información</b> sobre proyectos de tecnología & Intenet de las cosas.\n"
+msgid ""
+"\n"
+"                        En el canal de <a href=\"https://www.youtube.com/user/eberesquivel"><strong>YouTube</strong></a>\n"
+"                        podrás encontrar <b>tutoriales</b> en español, fáciles, sencillos y útiles.\n"
+"                        También podrás encontrar material para tu sitio web.\n"
 "                        <br>\n"
 "                        <br>\n"
-"                        <b>Si necesitas apoyo con algún proyecto</b> <a href=\"http://l2devsadmins.net/\"> contáctame</a>\n"
+"                        <b>Si necesitas soporte gratuito</b> <a href=\"http://l2devsadmins.net/\">visita el FORO.</a>\n"
 "                    "
-msgstr "\n"
-"                       Visit My site at <a href=\"http://eberesquivel.com\"><strong>Eber Raziel</strong></a> \n"
-"                       You will find </strong>information</strong> about technology projects and things.\n"
+msgstr ""
+"\n"
+"                        In the YouTube channel you can find <b>tutorials</b> in Spanish, easy, simple and useful.\n"
+"                        You can also find material for your website.\n"
 "                        <br>\n"
 "                        <br>\n"
-"                        <b>If you need support with a project</b> <a href=\"http://l2devsadmins.net/\">Contact to me</a> "
+"                        <b>If you need free support </b>visit the FORUM.\n"
+"                    "
 
-msgid "Agenda"
-msgstr "Schedule"
+#: .\templates\components\navbar\desktop\dropdown\dropdown_herramienta.html:5
+msgid "Buscador C4"
+msgstr "C4 finder"
 
+#: .\templates\components\navbar\desktop\dropdown\dropdown_herramienta.html:6
 msgid "Aumentos Calc"
 msgstr "Augments Calc"
 
@@ -132,19 +141,14 @@ msgstr "Augments Calc"
 msgid "Servicio"
 msgstr "Service"
 
-#: .\templates\components\navbar\desktop\dropdown\dropdown_informacion.html:11
-#: .\templates\components\navbar\mobile\dropdown\dropdown_informacion.html:13
-msgid "Pago"
-msgstr "Payment"
+
 
 #: .\templates\components\navbar\desktop\dropdown\dropdown_informacion.html:21
-#: .\templates\components\navbar\mobile\dropdown\dropdown_informacion.html:19
-#: .\templates\informacion\donacion.html:10
+#: .\templates\components\navbar\mobile\dropdown\dropdown_informacion.html:19 .\templates\informacion\donacion.html:10
 msgid "Donación"
 msgstr "Donation"
 
-#: .\templates\components\navbar\desktop\navbar_desktop.html:15
-#: .\templates\components\navbar\mobile\navbar_mobile.html:23
+#: .\templates\components\navbar\desktop\navbar_desktop.html:15 .\templates\components\navbar\mobile\navbar_mobile.html:23
 msgid "Información"
 msgstr "Information"
 
@@ -152,11 +156,14 @@ msgstr "Information"
 msgid "Herramientas"
 msgstr "Tools"
 
-#: .\templates\components\navbar\desktop\navbar_desktop.html:27
-#: .\templates\components\navbar\mobile\navbar_mobile.html:34
+#: .\templates\components\navbar\desktop\navbar_desktop.html:27 .\templates\components\navbar\mobile\navbar_mobile.html:34
 #: .\templates\informacion\comentarios.html:11
 msgid "Comentarios"
 msgstr "Reviews"
+
+#: .\templates\components\navbar\desktop\navbar_desktop.html:38 .\templates\components\navbar\mobile\navbar_mobile.html:44
+msgid "Sitios"
+msgstr "Forums"
 
 #: .\templates\components\navbar\mobile\navbar_mobile.html:39
 msgid "Canal YouTube"
@@ -166,9 +173,7 @@ msgstr "Youtube channel"
 msgid "Idioma"
 msgstr "Language"
 
-#: .\templates\informacion\comentarios.html:10
-#: .\templates\informacion\donacion.html:9
-#: .\templates\informacion\servicios.html:10
+#: .\templates\informacion\comentarios.html:10 .\templates\informacion\donacion.html:9 .\templates\informacion\servicios.html:10
 msgid "Página principal"
 msgstr "Homepage"
 
@@ -177,50 +182,48 @@ msgid "¿Porqué hacer una donación?"
 msgstr "Why make a donation?"
 
 #: .\templates\informacion\donacion.html:21
-msgid "Al hacer su donación estará contribuyendo con el Autor (Eber Raziel)"
-msgstr "When making your donation you are contributing with the Author (Eber Raziel)"
+msgid ""
+"Al hacer su donación estará contribuyendo con el Autor (ReynalDev), de tal manera que se compartirá material de calidad para el desarrollo "
+"de su servidor."
+msgstr ""
+"When making your donation you are contributing with the Author (Reynald0), so that you will share quality material for the development of "
+"your server"
 
 #: .\templates\informacion\donacion.html:24
 msgid "\"Me preocupo por compartir material útil y fácil de implementar\""
 msgstr "I worry about sharing useful and easy-to-implement material."
 
-#: .\templates\informacion\donacion.html:35
-#: .\templates\informacion\inicio.html:102
+#: .\templates\informacion\donacion.html:35 .\templates\informacion\inicio.html:102
 msgid "Cantidad"
 msgstr "Amount"
 
-#: .\templates\informacion\donacion.html:39
-#: .\templates\informacion\inicio.html:106
+#: .\templates\informacion\donacion.html:39 .\templates\informacion\inicio.html:106
 msgid "Dólares"
 msgstr "Dollars"
 
-#: .\templates\informacion\donacion.html:40
-#: .\templates\informacion\inicio.html:107
+#: .\templates\informacion\donacion.html:40 .\templates\informacion\inicio.html:107
 msgid "Euros"
 msgstr "Euros"
 
-#: .\templates\informacion\donacion.html:41
-#: .\templates\informacion\inicio.html:108
+#: .\templates\informacion\donacion.html:41 .\templates\informacion\inicio.html:108
 msgid "Pesos mexicanos"
 msgstr "Mexican pesos"
 
-#: .\templates\informacion\donacion.html:43
-#: .\templates\informacion\inicio.html:110
+#: .\templates\informacion\donacion.html:43 .\templates\informacion\inicio.html:110
 msgid "Moneda"
 msgstr "Currency"
 
-#: .\templates\informacion\donacion.html:48
-#: .\templates\informacion\inicio.html:115
+#: .\templates\informacion\donacion.html:48 .\templates\informacion\inicio.html:115
 msgid "donar"
 msgstr "donate"
 
 #: .\templates\informacion\inicio.html:17
-msgid "Contactar"
-msgstr "Contact"
+msgid "Contratar"
+msgstr "Contract"
 
 #: .\templates\informacion\inicio.html:33
-msgid "Soluciones garantizadas"
-msgstr ""
+msgid "Entrega garantizada o se reembolsa el pago."
+msgstr "Guaranteed delivery or payment is refunded."
 
 #: .\templates\informacion\inicio.html:80
 msgid "Ver más..."
@@ -246,8 +249,7 @@ msgstr "Services"
 msgid "Proceso"
 msgstr "Process"
 
-#: .\templates\informacion\servicios.html:24
-#: .\templates\informacion\servicios.html:40
+#: .\templates\informacion\servicios.html:24 .\templates\informacion\servicios.html:40
 msgid "ver"
 msgstr "see"
 
@@ -259,8 +261,7 @@ msgstr "Ask for"
 msgid "Asesoria"
 msgstr "Advice"
 
-#: .\templates\informacion\servicios.html:36
-#: .\templates\servicios\servicios.html:105
+#: .\templates\informacion\servicios.html:36 .\templates\servicios\servicios.html:105
 msgid "Asistencia"
 msgstr "Assistance"
 
@@ -289,13 +290,9 @@ msgid "Entrega garantizada"
 msgstr "Delivery guaranteed"
 
 #: .\templates\informacion\servicios.html:75
-msgid "\n"
-"                            A tomar en cuenta  de anticipo  del 30 % del proyecto, para comenzar en la primeras etapas del proyecto\n"
-"                            Una vez realizado el pedido no hay marcha atrás.\n"
-"                        "
-msgstr "\n"
-"To take into account of 30% advance to begin in the early stages of the project many half-encoding no longer want the order.\n"
-"Once ordered there is no reversing."
+msgid "A tener en cuenta que primero se paga y después se empieza a trabajar, esto debido a que muchos a media codificación ya no quieren el pedido. Una vez pedido no hay marcha atrás."
+msgstr "First you pay, this is due to the fact that many people who are half coding do not want the order anymore. Once ordered there is no going back."
+
 
 #: .\templates\informacion\servicios.html:122
 msgid "Calidad"
@@ -321,12 +318,7 @@ msgstr "If you want <b>good price in a short time </b>, you must sacrifice quali
 msgid "Internet de las cosas & Tú"
 msgstr "Internet of things & You"
 
-msgid "Internet de las cosas"
-msgstr "Internet of things"
-
-#: .\templates\promocion\crear_server.html:15
-#: .\templates\promocion\crear_server.html:26
-#: .\templates\promocion\crear_server.html:36
+#: .\templates\promocion\crear_server.html:15 .\templates\promocion\crear_server.html:26 .\templates\promocion\crear_server.html:36
 msgid "Crear servidor"
 msgstr "Create server"
 
@@ -335,23 +327,23 @@ msgid "aprende a desarrollar"
 msgstr "learn to develop"
 
 #: .\templates\servicios\servicios.html:8
-msgid "\n"
-"                        <span>Experiencia construyendo sistemas</span>\n"
+msgid ""
+"\n"
+"                        <span>Servicios</span>\n"
 "                        <span class=\"cd-words-wrapper\">\n"
-"                           <b class=\"is-visible\">SEGUROS <i class=\"fa fa-shield-alt amber-text\"> </i></b>\n"
-"                            <b>de CALIDAD</b>\n"
-"                            <b>PERSONALIZADOS</b>\n"
-"                            <b>a tu ALCANCE</b>\n"
+"                            <b class=\"is-visible\">confiables</b>\n"
+"                            <b>seguros</b>\n"
+"                            <b>de calidad</b>\n"
 "                        </span>\n"
 "                    "
-msgstr "\n"
-"                        <span>Building systems on </span>\n"
+msgstr ""
+"\n"
 "                        <span class=\"cd-words-wrapper\">\n"
-"                           <b class=\"is-visible\">SAFETY <i class=\"fa fa-shield-alt amber-text\"> </i></b>\n"
-"                            <b>QUALIY</b>\n"
-"                            <b>CUSTOMIZATION</b>\n"
-"                            <b>for YOU</b>\n"
+"                            <b class=\"is-visible\">Reliables</b>\n"
+"                            <b>Safe</b>\n"
+"                            <b>Quality</b>\n"
 "                        </span>\n"
+"                        <span>Building systems on </span>\n"
 "                    "
 
 #: .\templates\servicios\servicios.html:23
@@ -379,16 +371,14 @@ msgid "Quest personalizada"
 msgstr "Custom Quest"
 
 #: .\templates\servicios\servicios.html:58
-msgid "Consultoría en proyectos de TI, Desarrollo Web, Análisis, Despliegue de sistemas en la nube, Implementación de Infraestructura, Automatización"
-msgstr "Consulting in IT projects, Web Development, Analysis, Deployment of systems in the cloud, Implementation of Infrastructure, Automation"
+msgid "Creación de Quest personalizadas (Cliente - Servidor).Se usarán los NPC que tenga el cliente."
+msgstr "Creation of personalized Quest (Client - Server). The NPC that the client has will be used."
 
 #: .\templates\servicios\servicios.html:61
 msgid "Modificación de Quest existente."
 msgstr "Modification of existing Quest."
 
-#: .\templates\servicios\servicios.html:67
-#: .\templates\servicios\servicios.html:96
-#: .\templates\servicios\servicios.html:172
+#: .\templates\servicios\servicios.html:67 .\templates\servicios\servicios.html:96 .\templates\servicios\servicios.html:172
 #: .\templates\servicios\servicios.html:208
 msgid "ejemplo"
 msgstr "example"
@@ -572,81 +562,6 @@ msgstr "PLAY AGAR.IO"
 msgid "Sitios"
 msgstr "Sites"
 
-msgid "Sobre mí"
-msgstr "About Me"
 
-msgid "Una  simple prueba de la tecnología y su alcance en la vida los seres humanos"
-msgstr "A simple test of the technology applied to the daily life of the human being"
-
-msgid "Esta muestra permite controlar una casa en tiempo real desde cualquier punto del planeta en tiempo real"
-msgstr "This sample allows you to control a house in real time from any point of the planet in real time"
-
-msgid "Este es un sitio desarrollado en Django"
-msgstr "This is a site developed in Django."
-
-msgid "El Internet de las cosas (IoT) es la extensión de la conectividad de Internet a dispositivos físicos y objetos cotidianos. Con dispositivos electrónicos, conectividad a Internet y otras formas de hardware (como sensores), estos dispositivos pueden comunicarse e interactuar con otros a través de Internet, y pueden ser monitoreados y controlados de forma remota"
-msgstr "The Internet of things (IoT) is the extension of Internet connectivity into physical devices and everyday objects. Embedded with electronics, Internet connectivity, and other forms of hardware (such as sensors), these devices can communicate and interact with others over the Internet, and they can be remotely monitored and controlled"
-
-msgid "Aplicación Flask"
-msgstr "Flask App"
-
-msgid "Mapa"
-msgstr "Map"
-
-msgid "Acerca"
-msgstr "About"
-
-msgid "EJEMPLO"
-msgstr "EXAMPLE"
-
-msgid "texto"
-msgstr "text"
-
-msgid "Proyectos"
-msgstr "Proyects"
-
-msgid "Visita esta plantilla muestra desarrollada con el framework front-end Angular v5. Su integración con el sistema de almacenamiento alojado en la plataforma Firebase de Google,le permite al usuario una fácil integración de contenido sin la necesidad de programar una línea de código. La plataforma firebase nos permite la integración de datos en tiempo real."
-msgstr "Visit this sample template developed with the Angular v5 front-end framework. Its integration with the storage system hosted on Google's Firebase platform, allows the user to easily integrate content without the need to program a line of code. The firebase platform allows us to integrate data in real time."
-
-msgid "Sencilla aplicación que permite ubicar automoviles en puntos específicos de un mapa, desplegando sus coordenadas mediante un sistema de búsqueda."
-msgstr "Simple application that allows you to locate cars in specific points of a map, displaying their coordinates through a search system."
-
-msgid "Experiencia construyendo sistemas"
-msgstr "Experience building systems on"
-
-msgid "SEGUROS"
-msgstr "SAFETY"
-
-msgid "de CALIDAD"
-msgstr "QUALITY"
-
-msgid "PERSONALIZADOS"
-msgstr "CUSTOMIZATION"
-
-msgid "a tu ALCANCE"
-msgstr "your SCOPE"
-
-msgid "Condiciones"
-msgstr "Conditions"
-
-msgid "El pago deberá ser confirmado antes de realizar cualquier tipo de servicio"
-msgstr "Payment must be confirmed before performing any type of service"
-
-msgid "Toda consulta causa honorarios"
-msgstr "All inquiries cause fees"
-
-msgid "Paypal ofrece un pago seguro al utilizar el saldo de la cuenta Paypal.No es necesario tener saldo en la cuenta Paypal para hacer un pago, puede utilizar la tarjeta vinculada a su cuenta Paypal. De esta forma Paypal actúa como intermediario, Paypal hará el pago al hacer el cobro a la tarjeta.Si quiere hacer un pago de 5 USD y no tiene saldo en su cuenta Paypal, entonces puede usar su tarjeta de crédito o débito para efectuar el pago. Paypal hará un cargo a su tarjeta del mismo monto, es decir, 5 USD (para este ejemplo)."
-msgstr "Paypal offers a secure payment when using the balance of the Paypal account. It is not necessary to have a balance in the Paypal account to make a payment, you can use the card linked to your Paypal account. In this way Paypal acts as an intermediary, Paypal will make the payment when making the payment to the card. If you want to make a payment of 5 USD and have no balance in your Paypal account, then you can use your credit or debit card to make the payment . Paypal will charge your card the same amount, that is, 5 USD (for this example)."
-
-msgid "Solo debe proporcionar una dirección de correo electrónico válido donde recibirá un email, rellenará un formulario y se hará el cargo respectivo a su tarjeta."
-msgstr "You only need to provide a valid email address where you will receive an email, fill in a form and the corresponding charge will be made to your card."
-
-msgid "Próximamente!"
-msgstr "Coming Soon!"
-
-msgid "Mediante una transferencia bancaria del mismo banco y país (en este caso México) o depósito al número de cuenta."
-msgstr "Through a bank transfer from the same bank and country (in this case Mexico) or deposit to the account number."
-
-msgid "Pago"
-msgstr "Payment"
-
+msgid "Noticias IOT"
+msgstr "IOT Notices"
