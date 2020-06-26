@@ -587,3 +587,10 @@ msgstr "System Analyst"
 
 msgid "Analista IT"
 msgstr "IT Analyst"
+
+msgid "Enero"
+msgstr "January"
+
+msgid "Diciembre"
+msgstr "December"
+
