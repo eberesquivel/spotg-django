@@ -594,3 +594,5 @@ msgstr "January"
 msgid "Diciembre"
 msgstr "December"
 
+msgid "Actualmente"
+msgstr "Now"
