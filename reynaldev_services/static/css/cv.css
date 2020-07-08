@@ -37,12 +37,21 @@ h3 {
   background: #0d0d0d;
   color: #ffffff;
   margin: 20px auto;
+  box-shadow: 10px 10px #000000a1;
+  position: relative;
+  display: -webkit-box;
+  display: flex;
+}
+.resume:hover {
+  width: 960px;
+  background: #0d0d0d;
+  color: #ffffff;
+  margin: 20px auto;
   box-shadow: 10px 10px #f2f606e3;
   position: relative;
   display: -webkit-box;
   display: flex;
 }
-
 .resume .base,
 .resume .func {
   box-sizing: border-box;
