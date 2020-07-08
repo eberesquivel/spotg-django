@@ -51,6 +51,8 @@ h3 {
   position: relative;
   display: -webkit-box;
   display: flex;
+  transition-delay: 1s; /* delays for 1 second */
+-webkit-transition-delay: 1s; /* for Safari & Chrome */
 }
 .resume .base,
 .resume .func {
