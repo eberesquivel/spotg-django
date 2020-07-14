@@ -26,10 +26,10 @@ ul {
 }
 
 h3 {
-  color: #2ba6ff;
+  color: #ffffff;
   margin: 10px 0;
   text-transform: uppercase;
-  font-size: 1.25em;
+  font-size: .95em;
 }
 
 .resume {
@@ -143,9 +143,10 @@ h3 {
 .resume .base .profile .info .job {
   margin-top: 10px;
   margin-bottom: 0;
-  font-size: 1.5em;
+  font-size:.95em;
   text-transform: uppercase;
   color: #e0d20b;
+  font-family: cursive;
 }
 
 .resume .base .contact div {
