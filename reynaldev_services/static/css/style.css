@@ -7,7 +7,7 @@
  */
 
 body {
-  display: flex;
+  display: -moz-grid-group;
   flex-wrap: wrap;
   min-height: 100vh;
   font-size: 12px;
