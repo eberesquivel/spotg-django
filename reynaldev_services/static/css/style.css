@@ -371,12 +371,13 @@ nav .nav-wrapper {
  */
 }
 
-  nav .button-collapse i {
-    height: 56px;
-    line-height: 0px;
-    color: chartreuse;
+nav .button-collapse i {
+	height: 56px;
+	line-height: 0px;
+	color: chartreuse;
+	background-color: black;
+	border-radius: 20px;
 }
-
 .tarjeta-foro{
   width: 50%;
   margin-left: 25%;
