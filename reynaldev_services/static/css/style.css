@@ -84,7 +84,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   align-items: center;
   justify-content: center;
   background-color: rgba(126, 81, 100, 0.705);
-  
+  transition-delay: 4s;
 }
 
 .slider .indicators .indicator-item.active {
