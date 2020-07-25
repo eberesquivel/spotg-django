@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'Roboto';
     src: url('../fonts/Roboto-Bold-webfont.woff');
@@ -22,7 +23,7 @@
 
 @font-face {
     font-family: 'Osteo Corroded';
-    src: url( '../fonts/OsteoCorroded.woff2'),
+    src: url("{% static 'fonts/Gang of Three' %}"),
         url('../fonts/OsteoCorroded.woff');
     font-weight: normal;
     font-style: normal;
@@ -31,11 +32,12 @@
 
 @font-face {
     font-family:'Gang of Three';
-    src: url('../fonts/Gang of Three.eot');
-	src: url('../fonts/Gang of Three.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/Gang of Three.woff2') format('woff2'),
-		url('../fonts/Gang of Three.woff') format('woff'),
-		url('../fonts/Gang of Three.svg#Gang of Three') format('svg');
+   
+    src: url("{% static'/fonts/Gang of Three.eot' %}"),
+	     url("{% static'/fonts/Gang of Three.eot?#iefix') format('embedded-opentype' %}"),
+		url("{% static '/fonts/Gang of Three.woff2') format('woff2' %}"),
+		url("{% static '/fonts/Gang of Three.woff') format('woff' %}"),
+		url("{% static '/fonts/Gang of Three.svg#Gang of Three') format('svg' %}");
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
