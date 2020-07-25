@@ -31,11 +31,11 @@
 
 @font-face {
     font-family:'Gang of Three';
-    src: url('Gang of Three.eot');
-	src: url('Gang of Three.eot?#iefix') format('embedded-opentype'),
-		url('Gang of Three.woff2') format('woff2'),
-		url('Gang of Three.woff') format('woff'),
-		url('Gang of Three.svg#Gang of Three') format('svg');
+    src: url('../fonts/Gang of Three.eot');
+	src: url('../fonts/Gang of Three.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Gang of Three.woff2') format('woff2'),
+		url('../fonts/Gang of Three.woff') format('woff'),
+		url('../fonts/Gang of Three.svg#Gang of Three') format('svg');
     font-weight: 400;
     font-style: normal;
     font-stretch: normal;
