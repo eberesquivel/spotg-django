@@ -404,7 +404,7 @@ nav .button-collapse i {
 
 
 .collapsible-header {
-font-family:'Gang of Three';
+font-family: 'Lexend Zetta', sans-serif;;
 display: block;
 cursor: pointer;
 -webkit-tap-highlight-color: transparent;
@@ -413,3 +413,5 @@ line-height: 3rem;
 padding: 0 1rem;
   
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap');
