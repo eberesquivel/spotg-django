@@ -22,8 +22,8 @@
 
 @font-face {
     font-family: 'Osteo Corroded';
-    src: url("{% static '../fonts/OsteoCorroded.woff2'%}"),
-        url("{% static '../fonts/OsteoCorroded.woff'%}");
+    src: url( '../webfonts/OsteoCorroded.woff2'),
+        url('../webfonts/OsteoCorroded.woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
