@@ -14,7 +14,7 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url("{% static'../fonts/Roboto-Light-webfont.woff'%}");
+    src: url('../fonts/Roboto-Light-webfont.woff');
     font-weight: 300;
     font-style: normal;
 }
@@ -22,8 +22,8 @@
 
 @font-face {
     font-family: 'Osteo Corroded';
-    src: url( 'OsteoCorroded.woff2'),
-        url('OsteoCorroded.woff');
+    src: url( '../fonts/OsteoCorroded.woff2'),
+        url('../fonts/OsteoCorroded.woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
