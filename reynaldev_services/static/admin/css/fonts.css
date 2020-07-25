@@ -20,9 +20,12 @@
 }
 
 
+
 @font-face {
-    font-family: 'Osteo Corroded';
-    src: url('../fonts/Osteo Corroded.ttf');
-    font-weight: 300;
+    font-family: 'osteo_corrodedregular';
+    src: url('osteo_corroded-webfont.woff2') format('woff2'),
+         url('osteo_corroded-webfont.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
+
 }
