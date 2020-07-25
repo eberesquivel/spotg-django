@@ -6,6 +6,8 @@
  * Made By MaterializeCSS.com
  */
  @import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap');
+ @import url('https://github.com/eberesquivel/spotg-django/blob/master/static/admin/fonts/Gang%20of%20Three.woff')
+
 body {
   display: grid;
   flex-wrap: wrap;

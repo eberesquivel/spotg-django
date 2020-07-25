@@ -136,5 +136,5 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # Esta lista permite leer los archivos estaticos dede la ubicacion dada
 # En el primer elemento se da la ruta del proyecto y se agrega la ruta "l2web/static"
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'reynaldev_services/static'),
+    os.path.join(BASE_DIR, 'spotg-django/static'),
 ]
