@@ -1562,3 +1562,14 @@ h3 {
     font-stretch: normal;
     unicode-range: U+0020-02DC;
 }
+
+.collapsible-header {
+    font-family:'Gang of Three';
+	display: block;
+	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
+	min-height: 3rem;
+	line-height: 3rem;
+	padding: 0 1rem;
+    
+}

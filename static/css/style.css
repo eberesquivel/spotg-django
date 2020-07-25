@@ -402,3 +402,14 @@ nav .button-collapse i {
   width: 88%;
 }
 
+
+.collapsible-header {
+font-family:'Gang of Three';
+display: block;
+cursor: pointer;
+-webkit-tap-highlight-color: transparent;
+min-height: 3rem;
+line-height: 3rem;
+padding: 0 1rem;
+  
+}
