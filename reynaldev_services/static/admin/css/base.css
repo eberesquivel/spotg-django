@@ -1530,3 +1530,14 @@ h3 {
   display: block;
 }
 
+
+.collapsible-header {
+	display: block;
+	cursor: pointer;
+	-webkit-tap-highlight-color: transparent;
+	min-height: 3rem;
+	line-height: 3rem;
+	padding: 0 1rem;
+    background-color: hsla(135, 46%, 53%, 0.82);
+    font-family: 'Osteo Corroded';
+}
