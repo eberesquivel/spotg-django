@@ -23,8 +23,8 @@
 
 @font-face {
     font-family: 'osteo_corrodedregular';
-    src: url('../fonts/osteo_corroded/osteo_corroded.woff');
-        
+    src: url('../fonts//osteo_corroded-webfont.woff2'),
+         url('../fonts/osteo_corroded-webfont.woff') ;
     font-weight: normal;
     font-style: normal;
 
