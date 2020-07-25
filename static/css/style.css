@@ -5,7 +5,7 @@
  *
  * Made By MaterializeCSS.com
  */
-
+ @import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap');
 body {
   display: grid;
   flex-wrap: wrap;
@@ -414,4 +414,3 @@ padding: 0 1rem;
   
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap');
