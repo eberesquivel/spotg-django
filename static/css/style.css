@@ -5,7 +5,7 @@
  *
  * Made By MaterializeCSS.com
  */
- @import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
 
 body {
@@ -406,7 +406,7 @@ nav .button-collapse i {
 
 
 .collapsible-header {
-font-family: 'Gang of Three';
+font-family: ''Special Elite', cursive;';
 display: block;
 cursor: pointer;
 -webkit-tap-highlight-color: transparent;
