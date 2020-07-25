@@ -14,7 +14,7 @@
 
 @font-face {
     font-family: 'Roboto';
-    src: url("{% static'../fonts/Roboto-Light-webfont.woff'%}");
+    src: url('../fonts/Roboto-Light-webfont.woff');
     font-weight: 300;
     font-style: normal;
 }
@@ -22,10 +22,22 @@
 
 @font-face {
     font-family: 'Osteo Corroded';
-    src: url("{% static '/fonts/OsteoCorroded.woff2'%}"),
-        url("{% static '/fonts/OsteoCorroded.woff'%}");
+    src: url( '../fonts/OsteoCorroded.woff2'),
+        url('../fonts/OsteoCorroded.woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
+@font-face {
+    font-family:'Gang of Three';
+    src: url('Gang of Three.eot');
+	src: url('Gang of Three.eot?#iefix') format('embedded-opentype'),
+		url('Gang of Three.woff2') format('woff2'),
+		url('Gang of Three.woff') format('woff'),
+		url('Gang of Three.svg#Gang of Three') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-02DC;
+}
