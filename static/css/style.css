@@ -7,6 +7,19 @@
  */
  @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
+ @font-face {
+  font-family:'Gang of Three';
+  src: url('/static/fonts/Gang of Three.eot');
+  src: url('/static/fonts/Gang of Three.eot?#iefix') format('embedded-opentype'),
+  url('/static/fonts/Gang of Three.woff2') format('woff2'),
+  url('/static/fonts/Gang of Three.woff') format('woff'),
+  url('/static/fonts/Gang of Three.svg#Gang of Three') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  unicode-range: U+0020-02DC;
+}
+
 
 body {
   display: grid;
@@ -406,7 +419,9 @@ nav .button-collapse i {
 
 
 .collapsible-header {
-font-family: 'Special Elite', cursive;
+/* font-family: 'Special Elite', cursive;
+ */
+font-family: 'Gang of Three';
 display: block;
 cursor: pointer;
 -webkit-tap-highlight-color: transparent;
