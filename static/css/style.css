@@ -61,6 +61,17 @@ p {
   unicode-range: U+0020-02DC;
 }
 
+@font-face {
+  font-family: 'Osteo Corroded';
+  src: url('/static/fonts/OsteoCorroded.woff2') format('woff2'),
+      url('static/fonts/OsteoCorroded.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: relative;
@@ -425,7 +436,7 @@ nav .button-collapse i {
 .collapsible-header {
 /* font-family: 'Special Elite', cursive;
  */
-font-family: 'Gang of Three';
+font-family: 'Osteo Corroded';
 display: block;
 cursor: pointer;
 -webkit-tap-highlight-color: transparent;
