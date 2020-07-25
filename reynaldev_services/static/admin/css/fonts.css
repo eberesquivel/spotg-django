@@ -22,9 +22,9 @@
 
 @font-face {
     font-family: 'Osteo Corroded';
-    src: url('https://github.com/eberesquivel/spotg-django/blob/master/static/fonts/OsteoCorroded.woff'),
-        url('https://github.com/eberesquivel/spotg-django/blob/master/static/fonts/OsteoCorroded.woff2');
+    src: url('../fonts/OsteoCorroded.woff'),
+        url('../fonts/OsteoCorroded.woff2');
     font-weight: normal;
     font-style: normal;
-    font-display: swap;
+   /*  font-display: swap; */
 }
