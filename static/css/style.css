@@ -407,6 +407,14 @@ nav .button-collapse i {
 	background-color: black;
 	border-radius: 20px;
 }
+
+.breadcrumb {
+	font-size: 53px;
+  color: rgba(255, 255, 255, .7);
+  font-family: 'Osteo Corroded';
+}
+
+
 .tarjeta-foro{
   width: 50%;
   margin-left: 25%;
