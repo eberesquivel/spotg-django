@@ -24,6 +24,10 @@ body {
 nav ul a,
 nav .brand-logo {
   color: rgb(189, 52, 52);
+  font-size: 15px;
+  font-family: 'Osteo Corroded';
+  src: url('/static/fonts/OsteoCorroded.woff2') format('woff2'),
+      url('static/fonts/OsteoCorroded.woff') format('woff');
 }
 
 
