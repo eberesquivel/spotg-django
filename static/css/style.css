@@ -452,3 +452,11 @@ padding: 0 1rem;
   
 }
 
+
+.dropdown-content li > a, .dropdown-content li > span {
+	font-size: 26px;
+	color: #26a69a;
+	display: block;
+	line-height: 22px;
+	padding: 14px 16px;
+}
