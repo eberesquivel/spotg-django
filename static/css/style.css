@@ -410,9 +410,10 @@ nav .button-collapse i {
 }
 
 .breadcrumb {
-	font-size: 53px;
+	font-size: 30px;
   color: rgba(255, 255, 255, .7);
   font-family: 'Osteo Corroded';
+  padding-left: 50px;
 }
 
 
