@@ -461,3 +461,10 @@ background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox=
 	line-height: 22px;
 	padding: 14px 16px;
 }
+
+.card {
+	position: relative;
+	margin: .5rem 0 1rem 0;
+	transition: box-shadow .25s;
+	border-radius: 2px;
+}
