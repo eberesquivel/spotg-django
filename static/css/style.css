@@ -476,3 +476,10 @@ nav ul a {
 	padding: 0 15px;
 	cursor: pointer;
 }
+
+.row .col.l3 {
+	width: 50%;
+	margin-left: auto;
+	left: auto;
+	right: auto;
+}
