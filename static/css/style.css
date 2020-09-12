@@ -446,7 +446,7 @@ nav .button-collapse i {
 	min-height: 3rem;
 	line-height: 3rem;
   padding: 0 1rem;
-  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+  background-image: linear-gradient(to right, #2096cc 0%, #2bcccc 100%);
 }
 
 .dropdown-content li > a, .dropdown-content li > span {
