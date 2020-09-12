@@ -413,11 +413,11 @@ background-image: url("data:image/svg+xml,%3Csvg width='' height='20' viewBox='0
 }
 
 .resume .func .skills-prog ul li:hover {
-  color: #506719;;
+  color: #f1a10ddc;
 }
 
 .resume .func .skills-prog ul li:hover .skills-bar .bar {
-  background: #f1e20ddc;
+  background: #f1a10ddc;
   box-shadow: 0 0 0 1px #fefeff;
 }
 
