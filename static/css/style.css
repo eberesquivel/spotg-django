@@ -445,7 +445,8 @@ nav .button-collapse i {
 	-webkit-tap-highlight-color: transparent;
 	min-height: 3rem;
 	line-height: 3rem;
-	padding: 0 1rem;
+  padding: 0 1rem;
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
 }
 
 .dropdown-content li > a, .dropdown-content li > span {
