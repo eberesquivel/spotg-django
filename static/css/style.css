@@ -15,8 +15,11 @@
 	min-height: 100vh;
 	font-size: 12px;
   height: 100vh;
-  background-color: #000;
+/*   background-color: #000;
   background-image: repeating-linear-gradient(transparent, transparent 50px, rgba(0,255,255, .25) 50px,rgba(0,255,255, .25) 100px), repeating-linear-gradient(90deg, rgba(0,255,255, .25), rgba(0,255,255, .25) 50px, transparent 50px, transparent 100px), repeating-linear-gradient(135deg, transparent, transparent 4px, rgba(255,255,255,.1) 4px, rgba(255,255,255,.1) 8px), repeating-linear-gradient(45deg, transparent, transparent 4px, rgba(255,255,255,.1) 4px, rgba(255,255,255,.1) 8px), repeating-linear-gradient(transparent, transparent 20px, rgba(100,250,250, .2) 20px, rgba(100,250,250, .2) 21px, transparent 21px,transparent 29px, rgba(100,250,250, .2) 29px, rgba(100,250,250, .2) 30px, transparent 30px, transparent 50px), repeating-linear-gradient(90deg, transparent, transparent 20px, rgba(100,250,250, .2) 20px, rgba(100,250,250, .2) 21px, transparent 21px,transparent 29px, rgba(100,250,250, .2) 29px, rgba(100,250,250, .2) 30px, transparent 30px, transparent 50px);
+ */
+ background-color: #000000;
+ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='30' viewBox='0 0 1000 120'%3E%3Cg fill='none' stroke='%23222' stroke-width='10' %3E%3Cpath d='M-500 75c0 0 125-30 250-30S0 75 0 75s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 45c0 0 125-30 250-30S0 45 0 45s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 105c0 0 125-30 250-30S0 105 0 105s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 15c0 0 125-30 250-30S0 15 0 15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500-15c0 0 125-30 250-30S0-15 0-15s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3Cpath d='M-500 135c0 0 125-30 250-30S0 135 0 135s125 30 250 30s250-30 250-30s125-30 250-30s250 30 250 30s125 30 250 30s250-30 250-30'/%3E%3C/g%3E%3C/svg%3E");
 }
 
 nav ul a,
@@ -25,7 +28,7 @@ nav .brand-logo {
   font-size: 45px;
   font-family: 'Osteo Corroded';
   src: url('/static/fonts/OsteoCorroded.woff2') format('woff2'),
-      url('static/fonts/OsteoCorroded.woff') format('woff');
+       url('static/fonts/OsteoCorroded.woff') format('woff');
 }
 
 
@@ -420,18 +423,6 @@ nav .button-collapse i {
   right: auto;
   border-radius: 25px;
 }
-
-
-.side-nav li > a {
-	color: rgb(213, 248, 12);
-	display: block;
-	font-size: 14px;
-	font-weight: 500;
-	height: 48px;
-	line-height: 48px;
-	padding: 0 32px;
-}
-
 
 .container {
   width: 88%;
