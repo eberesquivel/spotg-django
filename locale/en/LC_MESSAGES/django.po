@@ -38,9 +38,6 @@ msgstr "IoT Systems development & Deployment"
 msgid "Independiente"
 msgstr "Freelancer"
 
-msgid "Desarrollo"
-msgstr "Code Skills"
-
 msgid "Analista de Sistemas"
 msgstr "System Analyst"
 
@@ -113,7 +110,7 @@ msgstr "On-site customer support in assigned projects (CISEN - PGR - UIF - IMSS)
 msgid "Coordinar la comunicación entre stakeholders"
 msgstr "Coordinate communication between stakeholders"
 
-msgid "Aplicación de metodologías ágiles (Scrum-Crystal Clear)"
+msgid "Aplicación de metodologías ágiles (Scrum-Crystal Clear"
 msgstr "Application of agile methodologies (Scrum-Crystal Clear)"
 
 msgid "Control de cambios"
@@ -161,7 +158,7 @@ msgstr "Guarantee the correct execution of the assigned processes"
 msgid "Implementar  sistema de carga vía FTP  cartera Buró de Credito"
 msgstr "Implement credit bureau portfolio upload system via FTP"
 
-msgid "Educación"
+msgid "Educacion"
 msgstr "Education"
 
 msgid "Ago. 2009 - Dic. 2014"
@@ -182,12 +179,8 @@ msgstr "Project Management"
 msgid "IA"
 msgstr "AI"
 
-msgid "Entretenimiento"
-msgstr "Entertaiment"
+msgid "Música"
+msgstr "Music"
 
 msgid "Aprendizaje"
 msgstr "Learning"
-
-msgid "Intereses"
-msgstr "Interest"
-
