@@ -32,21 +32,21 @@
             </div>
             <div class="info">
               <h1 class="name">Eber Raziel</h1>
-              <h2 class="job">{% trans 'Ingeniero en Sistemas Computacionales'%} </h2>
+              <h2 class="job">{% trans 'Ingeniero en Sistemas Computacionales'%}</h2>
             </div>
           </div>
           <div class="about">
-            <h3>Acerca de mi</h3>{% trans 'Implementador de soluciones IoT'%} 
+            <h3>{% trans 'Acerca de mi'%}</h3>{% trans 'Implementador de soluciones IoT'%} 
           </div>
           <div class="contact">
-            <h3>Contact Me</h3>
+            <h3>{% trans 'Contacto'%}</h3>
             <div class="call"><a href="tel:"><i class="fas fa-phone"></i><span></span></a></div>
-            <div class="address"><a href=""><i class="fas fa-map-marker"></i><span>CDMX, México</span></a>
+            <div class="address"><a href=""><i class="fas fa-map-marker"></i><span>{% trans 'CDMX, México'%} </span></a>
             </div>
             <div class="website"><a href="https://eberesquivel.pythonanywhere.com" target="_blank"> <i class="fas fa-home"></i><span>eberesquivel.pythonanywhere.com</span></a></div>
           </div>
           <div class="follow">
-            <h3>Follow Me</h3>
+            <h3>{% trans 'Redes sociales'%}</h3>
             <div class="box">
               <a href="https://www.facebook.com/zralei/" target="_blank"><i class="fab fa-facebook"></i></a>
               <a href="https://www.instagram.com/zralei/" target="_blank"><i class="fab fa-instagram "></i></a>
@@ -59,13 +59,13 @@
         </div>
         <div class="func">
           <div class="work">
-            <h3><i class="fa fa-briefcase"></i>Experience</h3>
+            <h3><i class="fa fa-briefcase"></i>{% trans 'Experiencia'%}</h3>
             <ul>
 
               <!-- freelance -->
               <li>
-                <span>Implementador de Sistemas IoT</span>
-                <small>Independiente</small><small>Enero 2015 -  Actualmente</small>
+                <span>{% trans 'Implementador de Sistemas IoT'%}</span>
+                <small>Independiente</small><small>{% trans 'Enero 2015 - Actualmente'%}</small>
                
                 <span>{% trans 'Diseño, programación e instalción de sistemas embebidos'%}</span><br>
                 <span>{% trans 'Telemetría residencial'%}</span><br>
@@ -84,9 +84,9 @@
               <!-- root -->
               
               <li>
-                <span>Analista de Sistemas</span>
+                <span>{% trans 'Analista de Sistemas'%}</span>
                 <small>Root Technologies</small>
-                <small>Enero 2014 - Diciembre 2014</small>
+                <small>{% trans 'Enero 2014 - Diciembre 2014'%}</small>
               
                 <span>{% trans 'Gestión de proyectos'%}</span><br>
                 <span>{% trans 'Análisis de información & reportes'%}</span><br> 
@@ -106,9 +106,9 @@
               
               <!-- fordcredit -->
               <li>
-                <span>Analista IT</span>
+                <span>{% trans 'Analista IT'%}</span>
                 <small>Ford Credit</small>
-                <small>Enero 2012 - Diciembre 2012</small>
+                <small>{% trans 'Enero 2012 - Diciembre 2012'%}</small>
               
               
                 <span>{% trans 'Administración y soporte recursos informáticos'%}</span><br>
@@ -132,14 +132,14 @@
             </ul>
           </div>
           <div class="edu">
-            <h3><i class="fa fa-graduation-cap"></i>Educacion</h3>
+            <h3><i class="fa fa-graduation-cap"></i>{% trans 'Educación'%}</h3>
             <ul>
-              <li><span>Universidad del Valle de México<br>Ingeniero en Sistemas Computacionales</span><small>Ciudad de México, México</small><small>Ago. 2009 - Dic. 2014</small></li>
-              <li><span>Cédula profesional<br>9208591</span><small>Ciudad de México, México</small><small>2015</small></li>
+              <li><span>Universidad del Valle de México<br>{% trans 'Ingeniero en Sistemas Computacionales'%}</span><small>{% trans 'CDMX,México'%}</small><small>{% trans 'Ago. 2009 - Dic. 2014'%}</small></li>
+              <li><span>{% trans 'Cédula profesional'%}<br>9208591</span><small>{% trans 'CDMX,México'%}</small><small>2015</small></li>
             </ul>
           </div>
           <div class="skills-prog">
-            <h3><i class="fas fa-code"></i>Programming Skills</h3>
+            <h3><i class="fas fa-code"></i>{% trans 'Desarrollo'%}</h3>
             <ul>
               <li data-percent="95"><span>HTML5</span>
                 <div class="skills-bar">
@@ -234,20 +234,20 @@
             </ul>
           </div>
           <div class="skills-soft">
-            <h3><i class="fas fa-bezier-curve"></i>Software Skills</h3>
+            <h3><i class="fas fa-bezier-curve"></i>Software</h3>
             
             <ul>
               <li data-percent="60">
                 <svg viewbox="0 0 100 100">
                   <circle cx="50" cy="50" r="45"></circle>
                   <circle class="cbar" cx="50" cy="50" r="45"></circle>
-                </svg><span>Routing & Swithcing</span><small></small>
+                </svg><span>{% trans 'Nube'%}</span><small></small>
               </li>
               <li data-percent="75">
                 <svg viewbox="0 0 100 100">
                   <circle cx="50" cy="50" r="45"></circle>
                   <circle class="cbar" cx="50" cy="50" r="45"></circle>
-                </svg><span>Gestión de Proyectos</span><small></small>
+                </svg><span>{% trans 'Gestión de proyectos'%}</span><small></small>
               </li>
               <li data-percent="70">
                 <svg viewbox="0 0 100 100">
@@ -259,7 +259,7 @@
                 <svg viewbox="0 0 100 100">
                   <circle cx="50" cy="50" r="45"></circle>
                   <circle class="cbar" cx="50" cy="50" r="45"></circle>
-                </svg><span>Telemetría</span><small></small>
+                </svg><span>{% trans 'Telemetría'%}</span><small></small>
               </li>
             </ul>
             <ul>
@@ -290,13 +290,13 @@
             </ul>
           </div>
           <div class="interests">
-            <h3><i class="fas fa-star"></i>Interests</h3>
+            <h3><i class="fas fa-star"></i>{% trans 'Intereses'%}</h3>
             <div class="interests-items">
-              <div class="art"><i class="fas fa-palette"></i><span>Art</span></div>
-              <div class="art"><i class="fas fa-book"></i><span>Books</span></div>
-              <div class="movies"><i class="fas fa-film"></i><span>Movies</span></div>
-              <div class="music"><i class="fas fa-headphones"></i><span>Music</span></div>
-              <div class="games"><i class="fas fa-gamepad"></i><span>Games</span></div>
+              <div class="art"><i class="fas fa-palette"></i><span>{% trans 'IA'%}</span></div>
+              <div class="art"><i class="fas fa-book"></i><span>{% trans 'Aprendizaje'%}</span></div>
+              <div class="movies"><i class="fas fa-music"></i><span>{% trans 'Entretenimiento'%}</span></div>
+              <div class="music"><i class="fas fa-code-branch"></i><span>{% trans 'Desarrollo Full Stack'%}</span></div>
+              <div class="games"><i class="fas fa-cloud-download"></i><span>{% trans 'Nube'%}</span></div>
             </div>
           </div>
         </div>
