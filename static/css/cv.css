@@ -34,7 +34,7 @@ h3 {
 
 @media only screen and (max-width: 767px){
   .resume .func .work {
-    display: none
+    display: -moz-inline-grid;
   }
 }
 
