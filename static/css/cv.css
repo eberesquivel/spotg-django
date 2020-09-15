@@ -64,7 +64,7 @@ h3 {
   box-shadow: 10px 10px #000000a1;
   position: relative;
   display: -webkit-box;
-  display: flow-root;
+  
 }
 .resume:hover {
   width: 960px;
