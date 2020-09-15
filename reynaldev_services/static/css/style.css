@@ -361,16 +361,16 @@ nav:hover {
   }
   
 
-/* nav .nav-wrapper {
+nav .nav-wrapper {
   border-radius: 5%;
   position: relative;
   height: 100%;
   background-color: #0d0d0d;
 }
- */
+ 
 
 
-/* 
+
 nav .button-collapse i {
 	height: 56px;
 	line-height: 60px;
@@ -378,7 +378,7 @@ nav .button-collapse i {
 	background-color: black;
 	border-radius: 20px;
 }
- */
+ 
 .tarjeta-foro{
   width: 50%;
   margin-left: 25%;
