@@ -389,7 +389,7 @@ nav {
 
 
 
-nav .nav-wrapper {
+/* nav .nav-wrapper {
   border-radius: 5%;
   position: relative;
   height: 100%;
@@ -398,15 +398,15 @@ nav .nav-wrapper {
   color: #cddc28;
   
 }
-
-nav .button-collapse i {
+ */
+/* nav .button-collapse i {
 	height: 56px;
 	line-height: 60px;
 	color: rgb(177, 189, 15);
 	background-color: black;
 	border-radius: 20px;
 }
-
+ */
 .breadcrumb {
 	font-size: 28px;
 	color: rgba(255, 255, 255, .7);
