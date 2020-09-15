@@ -44,6 +44,13 @@ h3 {
 }
 }
 
+@media only screen and (max-width: 767px){
+.resume .func .skills-soft {
+	
+	width: 330px;
+}
+}
+
 .resume {
   width: 960px;
   background: #0d0d0d;
@@ -52,7 +59,7 @@ h3 {
   box-shadow: 10px 10px #000000a1;
   position: relative;
   display: -webkit-box;
-  display: flex;
+  display: flow-root;
 }
 .resume:hover {
   width: 960px;
