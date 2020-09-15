@@ -33,8 +33,8 @@ h3 {
 }
 
 @media only screen and (max-width: 767px){
-  .resume .func .work {
-    display: -moz-inline-grid;
+  .resume {
+    display: inline flow-root list-item;
   }
 }
 
