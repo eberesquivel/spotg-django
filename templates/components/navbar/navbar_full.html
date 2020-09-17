@@ -14,7 +14,74 @@
     <li><a class="black-text" href="https://">Zrilae</a></li>
     <li><a class="black-text" href="http://spotgame.gq">SpotG-Agar.io</a>
     </li>
-  
+    <ul id="nav-mobile" class="side-nav">
+        <li>
+            <div class="user-view">
+                <div class="background">
+                    <img src="{% static 'img/fondo_sidebar.png' %}">
+                </div>
+                <img class="circle" src="{% static 'img/eber.jpg' %}">
+                <span class="white-text name">Eber Raziel</span>
+                <span class="white-text name">contacto@eberesquivel.com</span>
+            </div>
+        </li>
+        <li>
+            <a class="dropdown-button" href="#!" data-activates="dd-informacion-mobile">
+                <i class="material-icons">info_outline</i>
+                {% trans 'Información' %}
+                <i class="material-icons right">arrow_drop_down</i>
+            </a>
+        </li>
+        <li><a href="{% facebook_url %}">
+            <i class="material-icons">assignment_ind</i>
+            Facebook</a>
+        </li>
+        <li>
+            <a href="{% url 'comentarios' %}">
+                <i class="material-icons">question_answer</i>
+                {% trans 'Agenda' %}
+            </a>
+        </li>
+        <li><a href="">
+            <i class="material-icons">video_library</i>
+            {% trans 'Canal YouTube' %}</a>
+        </li>
+        <li>
+            <a class="dropdown-button" data-activates="dd-herramienta-desktop" class="dropdown-button white-text">
+                
+                <i class="material-icons">settings_applications</i>
+                {% trans 'Herramientas' %}
+                <i class="material-icons right">arrow_drop_down</i>
+            </a>
+        </li>
+        <li>
+            <a class="dropdown-button " href="#!" data-activates="dd-foro-mobile">
+                <i class="material-icons">web</i>
+                {% trans 'Sitios' %}
+                <i class="material-icons right">arrow_drop_down</i>
+            </a>
+        </li>
+        <li><a href="{% url 'CV' %}">
+            <i class="material-icons">content_paste</i>
+            cv</a>
+        </li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        
+        <li><a class="subheader amber">{% trans 'Idioma' %}</a></li>
+        <li {% if LANGUAGE_CODE == 'es' %} class="active" {% endif %}>
+            <a id="mobile-lenguaje-es" class="black-text">
+                <img src="{% static 'img/idiomas/es.png' %}">MX
+            </a>
+        </li>
+        <li {% if LANGUAGE_CODE == 'en' %} class="active" {% endif %}>
+            <a id="mobile-lenguaje-en" class="black-text">
+                <img src="{% static 'img/idiomas/en.png' %}">EN
+            </a>
+        </li>
+    </ul>
+    
   
 </ul>
     
