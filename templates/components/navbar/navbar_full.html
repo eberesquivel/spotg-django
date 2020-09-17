@@ -1,4 +1,6 @@
 {% load staticfiles %}
+
+<!-- 
 <nav role="navigation"><div class="nav-wrapper container">
     <a href="https://eberesquivel.pythonanywhere.com"></a>
     <ul id="nav-mobile" class="side-nav">
@@ -7,8 +9,7 @@
     <li><a class="black-text" href="http://spotgame.gq">SpotG-Agar.io</a>
     </li>
  
-    {% include 'components/navbar/desktop/navbar_desktop.html' %}
-    {% include 'components/navbar/mobile/navbar_mobile.html' %}
+  
 </ul>
     
     <ul class="right hide-on-med-and-down">
@@ -22,4 +23,14 @@
     <li><a href="/donacion/">Donación</a></li><li><a href="/locacion/">Ubicación</a></li><li><a href="/faqs/">FAQs <i class="material-icons right black"></i></a></li></ul></li><li><a class="dropdown-button white-text" data-activates="dd-lenguaje-desktop"><img class="vertical-align-center" src="/static/img/idiomas/en.png">EN</a><ul class="dropdown-content" id="dd-lenguaje-desktop"><li><a class="black-text" id="lenguaje-es"><img src="/static/img/idiomas/es.png">ES</a></li><li><a class="black-text" id="lenguaje-en"><img src="/static/img/idiomas/en.png">EN</a></li></ul></li></ul>
     <a class="button-collapse" data-activates="nav-mobile"><i class="material-icons white-text">menu</i></a>
    
-</div></nav>
+</div></nav> -->
+
+<nav class="page-footer"role="navigation">
+    <div class="nav-wrapper container >
+        <a id="logo-container" href="{% url 'inicio' %}" class="brand-logo">
+            <!-- <img src="{% static 'img/header_web.png' %}" class="vertical-align-center"> -->
+        </a>
+        {% include 'components/navbar/desktop/navbar_desktop.html' %}
+        {% include 'components/navbar/mobile/navbar_mobile.html' %}
+    </div>
+</nav>
