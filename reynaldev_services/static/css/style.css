@@ -388,6 +388,17 @@ nav .button-collapse i {
 }
 
 
+.right {
+  float: right!important
+}
+
+@media only screen and (max-width:600px) {
+  .hide-on-med-and-down {
+      display: none!important
+  }
+}
+
+
 
 
 .container {
