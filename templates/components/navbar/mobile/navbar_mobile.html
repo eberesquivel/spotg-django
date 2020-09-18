@@ -5,7 +5,6 @@
 {% include 'components/navbar/mobile/dropdown/dropdown_informacion.html' %}
 {% include 'components/navbar/mobile/dropdown/dropdown_foro.html' %}
 
-
 <!-- NAVBAR movil -->
 <ul id="nav-mobile" class="side-nav">
     <li>
@@ -13,7 +12,7 @@
             <div class="background">
                 <img src="{% static 'img/fondo_sidebar.png' %}">
             </div>
-            <img class="circle" src="{% static 'img/eber.jpg' %}">
+            <img class="circle" src="{% static 'img/reynaldev.jpg' %}">
             <span class="white-text name">Eber Raziel</span>
             <span class="white-text name">contacto@eberesquivel.com</span>
         </div>
@@ -54,9 +53,9 @@
             <i class="material-icons right">arrow_drop_down</i>
         </a>
     </li>
-    <li><a href="{% url 'CV' %}">
+    <li><a href="{% url 'faqs' %}">
         <i class="material-icons">content_paste</i>
-        cv</a>
+        FAQs</a>
     </li>
     <li>
         <div class="divider"></div>
@@ -74,3 +73,4 @@
         </a>
     </li>
 </ul>
+<a data-activates="nav-mobile" class="button-collapse"><i class="material-icons white-text">menu</i></a>

@@ -13,35 +13,40 @@
     <li>
         <a data-activates="dd-informacion-desktop" class="dropdown-button white-text">
             {% trans 'Información' %}
-            <i class="material-icons right">arrow_drop_up</i>
+            <i class="material-icons right">arrow_drop_down</i>
         </a>
     </li>
-    <!-- 
+    
     <li>
         <a href="{% url 'comentarios' %}" class="white-text">
             {% trans 'Agenda' %}
         </a>
-    </li> -->
-    
-  <!--  
+    </li>
+    <li>
+        <a href="https://www.youtube.com"
+           target="_blank">
+            <img src="{% static 'img/social/youtube.png' %}" class="vertical-align-center">
+        </a>
+    </li>
+   
     <li>
         <a data-activates="dd-foro-desktop" class="dropdown-button white-text">
             {% trans 'Sitios' %}
             <i class="material-icons right">arrow_drop_down</i>
         </a>
-    </li> -->
+    </li>
     <!-- <li>
         <a href="/rgbtobgr/parser/" class="white-text"">
             {% trans 'Mapa' %}
             <i class="material-icons right">map</i>
         </a>
     </li> -->
-   <!--  <li>
+    <li>
         <a href="{% url 'faqs' %}" class="white-text">
             FAQs
             <i class="material-icons right"></i>
         </a>
-    </li> -->
+    </li>
     <li>
         <a data-activates="dd-lenguaje-desktop" class="dropdown-button white-text">
             {% if LANGUAGE_CODE == 'es' %}

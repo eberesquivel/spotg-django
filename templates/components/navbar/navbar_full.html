@@ -1,22 +1,11 @@
+
 {% load staticfiles %}
-
-<!-- Importante agregar el UL de DropDown para que la version de movil pueda abrirse -->
-
-
-<nav role="navigation">
-   
-
-    <div class="nav-wrapper container">
-
-
-<!-- <a class="button-collapse" data-activates="nav-mobile"><i class="material-icons">menu</i></a> -->
-
-
-
+<nav class=" grey darken-4  amber-text role="navigation">
+    <div class="nav-wrapper container >
+        <a id="logo-container" href="{% url 'inicio' %}" class="brand-logo">
+            <!-- <img src="{% static 'img/header_web.png' %}" class="vertical-align-center"> -->
+        </a>
+        {% include 'components/navbar/desktop/navbar_desktop.html' %}
+        {% include 'components/navbar/mobile/navbar_mobile.html' %}
     </div>
-
-    {% include '/components/navbar/mobile/navbar_mobile.html' %}
-
-    {% include '/components/navbar/desktop/navbar_desktop.html' %}
-
 </nav>
