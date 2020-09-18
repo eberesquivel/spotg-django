@@ -504,3 +504,7 @@ nav ul a {
 	background-attachment: fixed;
 	background-size: contain;
 }
+
+.side-nav li.active {
+  background-color: rgb(142, 180, 239);
+}
