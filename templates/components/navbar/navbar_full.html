@@ -2,8 +2,7 @@
 {% load i18n %}
 {% load social_url %}
 <!-- Importante agregar el UL de DropDown para que la version de movil pueda abrirse -->
-{% include 'components/navbar/mobile/dropdown/dropdown_informacion.html' %}
-{% include 'components/navbar/mobile/dropdown/dropdown_foro.html' %}
+
 
 <nav role="navigation">
    
@@ -12,16 +11,6 @@
 
 
 <a class="button-collapse" data-activates="nav-mobile"><i class="material-icons">menu</i></a>
-<li>
-    <div class="user-view">
-        <ul id="nav-mobile" class="side-nav">
-            <div class="background">
-                <img src="{% static 'img/fondo_sidebar.png' %}">
-            </div>
-            <img class="circle" src="{% static 'img/eber.jpg' %}">
-            <span class="white-text name">Eber Raziel</span>
-            <span class="white-text name">contacto@eberesquivel.com</span>
-        </div>
-    </li>
+|
     </div>
 </nav>
