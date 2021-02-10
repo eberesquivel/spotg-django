@@ -521,9 +521,9 @@ background-image: url("data:image/svg+xml,%3Csvg width='' height='20' viewBox='0
 }
 
 .resume .func .skills-soft ul li svg .cbar {
-  stroke-width: 3px;
-  stroke: #7aff0bde;
-  stroke-linecap: round;
+	stroke-width: 3px;
+	stroke: #252919;
+	stroke-linecap: round;
 }
 
 .resume .func .skills-soft ul li span,
