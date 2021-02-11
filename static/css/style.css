@@ -21,16 +21,14 @@
 	background-size: cover;
 }
 
-nav ul a,
+nav ul a, 
 nav .brand-logo {
-  color: rgb(189, 52, 52);
-  font-size: 45px;
-  /* font-family: 'Osteo Corroded';
-  src: url('/static/fonts/OsteoCorroded.woff2') format('woff2'),
-       url('static/fonts/OsteoCorroded.woff') format('woff'); */
-  font-family: 'Exo 2', sans-serif;
-}
+	
+	font-size: 45px;
 
+	font-family: 'Exo 2', sans-serif;
+	background-color: #282626ad;
+}
 
 p {
   line-height: 2rem;
