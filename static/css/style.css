@@ -6,7 +6,7 @@
  * Made By MaterializeCSS.com
  */
  @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&display=swap');
 
 
  body {
@@ -25,9 +25,10 @@ nav ul a,
 nav .brand-logo {
   color: rgb(189, 52, 52);
   font-size: 45px;
-  font-family: 'Osteo Corroded';
+  /* font-family: 'Osteo Corroded';
   src: url('/static/fonts/OsteoCorroded.woff2') format('woff2'),
-       url('static/fonts/OsteoCorroded.woff') format('woff');
+       url('static/fonts/OsteoCorroded.woff') format('woff'); */
+  font-family: 'Exo 2', sans-serif;
 }
 
 
