@@ -441,7 +441,7 @@ nav {
 }
 
 .dropdown-content li > a, .dropdown-content li > span {
-	font-size: 26px;
+	font-size: 16px;
 	color: #f5f5f5;
 	display: block;
 	line-height: 22px;
