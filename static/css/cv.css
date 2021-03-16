@@ -169,11 +169,11 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .resume .base .profile .info .name {
-  margin-top: 10px;
-  margin-bottom: 0;
-  font-size: 1.75em;
-  text-transform: uppercase;
-  color: #ffffff;
+	margin-top: 11px;
+	margin-bottom: 0;
+	font-size: 2.75em;
+	text-transform: uppercase;
+	color: #0d0d0d;
 }
 
 .resume .base .profile .info .job {
