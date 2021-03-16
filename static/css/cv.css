@@ -164,8 +164,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .resume .base .profile .info {
-  text-align: center;
-  color: #ffffff;
+	text-align: center;
+	color: #000;
 }
 
 .resume .base .profile .info .name {
@@ -177,11 +177,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 
 .resume .base .profile .info .job {
-  margin-top: 10px;
-  margin-bottom: 0;
-  font-size:.95em;
-  text-transform: uppercase;
-  
+	margin-top: 10px;
+	margin-bottom: 0;
+	font-size: 1em;
+	text-transform: uppercase;
 }
 
 .resume .base .contact div {
