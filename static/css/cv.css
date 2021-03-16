@@ -132,15 +132,13 @@ background-image: url("data:image/svg+xml,%3Csvg width='' height='20' viewBox='0
 .resume .base .profile::after {
 	content: "";
 	position: absolute;
-	
 	width: 114%;
 	height: 236px;
-	bottom: 10px;
+	bottom: -1px;
 	left: 0;
-	-webkit-transform: skewY(-5deg);
-	transform: skewY(188deg);
+	/* -webkit-transform: skewY(-5deg); */
+	/* transform: skewY(188deg); */
 	z-index: -1;
-
 }
 .resume .base .profile .photo img {
   width: 65%;
